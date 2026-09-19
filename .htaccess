@@ -1,0 +1,15 @@
+Options +FollowSymLinks 
+RewriteEngine on
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^.*\/index\.html\ HTTP/
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+RewriteCond %{http_host} ^midascosmetic.com$ [nc]
+RewriteRule ^(.*)$ http://www.midascosmetic.com/$1 [r=301,nc,L]
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	RewriteCond %{HTTP:X-Forwarded-Proto} !https
+	RewriteCond %{HTTPS} off
+	RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>

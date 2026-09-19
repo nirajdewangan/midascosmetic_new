@@ -1,0 +1,3249 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <!--header -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midas Cosmetic</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+      defer
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#9e45a7",
+              secondary: "#f2b705",
+              tertiary: "#f8f0e5",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- VisualLightBox (gallery lightbox) -->
+    <link
+      rel="stylesheet"
+      href="https://www.midascosmetic.com/GALLERY/engine/vlightbox1.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.midascosmetic.com/GALLERY/engine/css/visuallightbox.css"
+      type="text/css"
+      media="screen"
+    />
+    <script
+      src="https://www.midascosmetic.com/GALLERY/engine/js/visuallightbox.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://www.midascosmetic.com/GALLERY/engine/js/vlbdata.js"
+      type="text/javascript"
+    ></script>
+    <style>
+      .owl-carousel .owl-item img {
+        display: block;
+        width: 80%;
+      }
+      .owl-prev,
+      .owl-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        /* background: rgba(0, 0, 0, 0.5) !important; */
+        color: #000 !important;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 24px !important;
+      }
+      .owl-prev {
+        left: -50px;
+      }
+      .owl-next {
+        right: -50px;
+      }
+      .owl-carousel,
+      .owl-carousel .item {
+        min-height: 550px; /* Adjust as needed */
+      }
+      .owl-carousel .item {
+        display: flex;
+        align-items: center;
+      }
+      .owl-carousel .item1 {
+        display: flex;
+        align-items: end;
+      }
+      .owl-nav {
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        #common-Causes-Of-Gynecomastia-1 iframe {
+          width: 100% !important;
+        }
+        .owl-nav {
+          display: none;
+        }
+        .owl-carousel,
+        .owl-carousel .item {
+          min-height: 400px; /* Adjust as needed */
+        }
+        .owl-carousel .owl-item img {
+          display: block;
+          width: 100%;
+        }
+        /* .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+      } */
+      }
+      .count-image {
+        background-image: url("./images/count.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .date-label {
+        display: inline-block; /* Important for width and height to be respected */
+        position: relative;
+        width: 200px; /* Or whatever width you want */
+        height: 30px; /* Or whatever height you want */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        overflow: hidden; /* Hide the default datepicker icon */
+      }
+
+      .date-label input[type="date"] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0; /* Make the actual input invisible */
+        cursor: pointer;
+        box-sizing: border-box;
+      }
+
+      /* Optional: Style the label to look like a regular date input */
+      .date-label {
+        padding: 5px; /* Add some padding */
+        background-color: #fff;
+      }
+      [x-cloak] {
+        display: none !important;
+      }
+      .procedurelist ul li {
+        margin: 9px;
+        padding: 0 0 0 20px;
+        background: url(https://www.midascosmetic.com/images/arrow-icon.jpg)
+          no-repeat left;
+        font-size: 14px;
+      }
+      .procedurelist p {
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+      #vlightbox1 img {
+        width: 310px;
+        height: auto;
+      }
+
+      .gynecomastia-hero {
+        min-width: 280px;
+      }
+    </style>
+    <style>
+      /* Additional: force mobile menu on short landscape viewports (phones like iPhone SE landscape and similar) */
+      @media (orientation: landscape) and (max-height: 420px) {
+        .desktop-menu {
+          display: none !important;
+        }
+        .mobile-menu {
+          display: block !important;
+        }
+
+        nav .mobile-menu > div[x-show] {
+          position: absolute !important;
+          right: 0.5rem !important;
+          max-width: calc(100% - 1rem) !important;
+        }
+      }
+    </style>
+    <style>
+      @media (max-width: 900px) and (orientation: landscape) {
+        .mobile-landscape\:flex-col,
+        section.mobile-landscape\:flex-col,
+        .container .mobile-landscape\:flex-col {
+          flex-direction: column !important;
+        }
+
+        img.lipo-hero {
+          width: 100%;
+        }
+        div.lipo-hero {
+          width: 100%;
+        }
+        /* On small screens in landscape force desktop nav hidden and mobile nav visible */
+        .desktop-menu {
+          display: none !important;
+        }
+        .mobile-menu {
+          display: block !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <!-- Header Section -->
+    <header class="bg-white pt-2 sticky top-0 z-50 shadow-md">
+      <div class="container mx-auto flex items-center justify-between pb-2">
+        <div class="flex items-center">
+          <div class="mb-4 md:mb-0 ml-4 md:ml-0">
+            <a href="https://www.midascosmetic.com/"
+              ><img
+                src="./images/logo-midas-cosmetic-surgery-clinic.png"
+                alt="Midas Cosmetic Logo"
+                class="h-16 md:h-24"
+            /></a>
+          </div>
+        </div>
+        <nav class="bg-white" x-data="{ mobileOpen: false }">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+              <!-- Desktop Menu -->
+              <div class="hidden md:flex items-center space-x-8 desktop-menu">
+                <ul class="flex flex-wrap justify-center md:justify-end">
+                  <li class="mx-2 my-1 text-sm md:text-base">
+                    <a href="index.html" class="hover:text-primary">Home</a>
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base">
+                    <a href="about-us.html" class="hover:text-primary"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base group relative">
+                    <!-- Clinical Services Dropdown -->
+                    <a href="#" class="hover:text-primary flex items-center">
+                      Clinical Services
+                      <i class="ml-1 fas fa-chevron-down"></i>
+                    </a>
+
+                    <!-- Submenu -->
+                    <div
+                      class="absolute left-0 mt-2 w-[620px] bg-white border rounded-lg shadow-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+                    >
+                      <div
+                        class="max-w-[620px] mx-auto bg-white p-6 rounded-lg shadow-lg grid grid-cols-3 gap-4 text-sm"
+                      >
+                        <!-- Column 1 -->
+                        <div>
+                          <h4 class="text-primary font-semibold mt-2">
+                            Hair Restoration
+                          </h4>
+                          <ul class="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <a
+                                href="Hair-Restoration.html"
+                                class="hover:text-primary"
+                                >&#10148; Hair Transplant</a
+                              >
+                            </li>
+                          </ul>
+                          <h4 class="text-primary font-semibold mt-2">
+                            Body Contouring
+                          </h4>
+                          <ul class="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <a
+                                href="Gynaecomastia-Surgery-in-Bangalore.html"
+                                class="hover:text-primary"
+                                >&#10148; Gynecomastia</a
+                              >
+                            </li>
+                            <li>
+                              <a href="lipo.html" class="hover:text-primary"
+                                >&#10148; Liposuction</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="tummy-tuck.html"
+                                class="hover:text-primary"
+                                >&#10148; Tummy Tuck</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Breast-surgery.html"
+                                class="hover:text-primary"
+                                >&#10148; Breast Reshaping</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="post-weight-loss-tucking.html"
+                                class="hover:text-primary"
+                                >&#10148; Post Weight Loss Tucking</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Calf Implant</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Butt Augmentation</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div>
+                          <h4 class="text-primary font-semibold">
+                            Non-Surgical Facial Rejuvenation
+                          </h4>
+                          <ul class="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <a
+                                href="Botox-Fillers.html"
+                                class="hover:text-primary"
+                                >&#10148; Botulinum Toxin</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Botox-Fillers.html"
+                                class="hover:text-primary"
+                                >&#10148; Fillers</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Thread Lift</a
+                              >
+                            </li>
+                          </ul>
+                          <h4 class="text-primary font-semibold mt-4">
+                            Genital Cosmetic Surgery
+                          </h4>
+                          <ul class="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <a
+                                href="Genital-Cosmetic-Surgery.html"
+                                class="hover:text-primary"
+                                >&#10148; Hymenoplasty</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Genital-Cosmetic-Surgery.html"
+                                class="hover:text-primary"
+                                >&#10148; Labiaplasty</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Genital-Cosmetic-Surgery.html"
+                                class="hover:text-primary"
+                                >&#10148; Vaginoplasty</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div>
+                          <h4 class="text-primary font-semibold">
+                            Facial Cosmetic Surgery
+                          </h4>
+                          <ul class="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <a
+                                href="rhinoplasty-nose-job-in-bangalore.html"
+                                class="hover:text-primary"
+                                >&#10148; Rhinoplasty</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="rhinoplasty-nose-job-in-bangalore.html"
+                                class="hover:text-primary"
+                                >&#10148; Facial Implants</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Face-lift.html"
+                                class="hover:text-primary"
+                                >&#10148; Dimple Creation</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Face-lift.html"
+                                class="hover:text-primary"
+                                >&#10148; Microfat Injection</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Face-lift.html"
+                                class="hover:text-primary"
+                                >&#10148; Face Lift</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Face-lift.html"
+                                class="hover:text-primary"
+                                >&#10148; Blepharoplasty</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                href="Face-lift.html"
+                                class="hover:text-primary"
+                                >&#10148; Otoplasty</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Lip Augmentation</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Lip Reduction</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Ear Lobe Repair</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Mole Excision</a
+                              >
+                            </li>
+                            <li>
+                              <a href="#" class="hover:text-primary"
+                                >&#10148; Scar Revision</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base group relative">
+                    <a href="#" class="hover:text-primary flex items-center">
+                      Picture Gallery
+                      <i class="ml-1 fas fa-chevron-down"></i>
+                    </a>
+
+                    <!-- Submenu -->
+                    <div
+                      class="absolute left-0 mt-2 w-[200px] bg-white border rounded-lg shadow-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+                    >
+                      <div
+                        class="max-w-[200px] mx-auto bg-white p-4 rounded-lg shadow-lg text-sm"
+                      >
+                        <ul class="space-y-4 text-gray-700 text-sm font-medium">
+                          <li>
+                            <a
+                              href="Hair-Photos-Final-gallery.html"
+                              class="hover:text-primary"
+                              >Hair Restoration</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Gynecomastia-Final-gallery.html"
+                              class="hover:text-primary"
+                              >Gynecomastia</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Rhinoplasty-Final-gallery.html"
+                              class="hover:text-primary"
+                              >Rhinoplasty</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Liposuction-Final-gallery.html"
+                              class="hover:text-primary"
+                              >Liposuction</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Tummy-tuck-picture-gallery.html"
+                              class="hover:text-primary"
+                              >Tummy Tuck</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Breast-Augmentation-gallery.html"
+                              class="hover:text-primary"
+                              >Breast Augmentation</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Facility-Tour.html"
+                              class="hover:text-primary"
+                              >Facility Tour</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base">
+                    <a
+                      href="patients-testimonial.html"
+                      class="hover:text-primary"
+                      >Patient Testimonials</a
+                    >
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base">
+                    <a
+                      href="http://www.midascosmetic.com/blog/"
+                      class="hover:text-primary"
+                      >Blog</a
+                    >
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base">
+                    <a href="medical-tourism.html" class="hover:text-primary"
+                      >Medical Tourism</a
+                    >
+                  </li>
+                  <li class="mx-2 my-1 text-sm md:text-base">
+                    <a href="contact-us.html" class="hover:text-primary"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Mobile Menu -->
+              <div
+                x-data="{ mobileOpen: false } "
+                class="relative md:hidden mobile-menu"
+              >
+                <!-- Mobile Menu Button -->
+                <button
+                  @click="mobileOpen = !mobileOpen"
+                  class="text-gray-800 focus:outline-none"
+                >
+                  <i class="fas fa-bars text-2xl"></i>
+                </button>
+
+                <!-- Mobile Menu -->
+                <div
+                  x-show="mobileOpen"
+                  x-cloak
+                  @click.away="mobileOpen = false"
+                  class="md:hidden border-t absolute z-10 right-5 min-w-[310px] bg-[#f6f6f6] shadow-lg pr-4"
+                >
+                  <a
+                    href="index.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                    >Home</a
+                  >
+                  <a
+                    href="about-us.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                    >About Us</a
+                  >
+                  <!-- Clinical Services Dropdown -->
+                  <div x-data="{ open: false }" class="relative">
+                    <button
+                      @click="open = !open"
+                      class="w-full text-left text-gray-800 hover:bg-gray-100 py-2 pl-4 flex justify-between"
+                    >
+                      Clinical Services <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div
+                      x-show="open"
+                      @click.away="open = false"
+                      class="pl-4 space-y-1"
+                    >
+                      <a
+                        href="Hair-Restoration.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Hair Transplant</a
+                      >
+
+                      <!-- Body Contouring with Submenu -->
+                      <div x-data="{ open: false }" class="relative">
+                        <button
+                          @click="open = !open"
+                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                        >
+                          Body Contouring <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div
+                          x-show="open"
+                          @click.away="open = false"
+                          class="pl-4 space-y-1"
+                        >
+                          <a
+                            href="Gynaecomastia-Surgery-in-Bangalore.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Gynecomastia</a
+                          >
+                          <a
+                            href="lipo.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Liposuction</a
+                          >
+                          <a
+                            href="tummy-tuck.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Tummy Tuck</a
+                          >
+                          <a
+                            href="Breast-surgery.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Breast Reshaping</a
+                          >
+                          <a
+                            href="post-weight-loss-tucking.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Post Weight Loss Tucking</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Calf Implant</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Butt Augmentation</a
+                          >
+                        </div>
+                      </div>
+
+                      <!-- Non-Surgical Facial Rejuvenation with Submenu -->
+                      <div x-data="{ open: false }" class="relative">
+                        <button
+                          @click="open = !open"
+                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                        >
+                          Non-Surgical Facial Rejuvenation
+                          <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div
+                          x-show="open"
+                          @click.away="open = false"
+                          class="pl-4 space-y-1"
+                        >
+                          <a
+                            href="Botox-Fillers.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Botulinum Toxin</a
+                          >
+                          <a
+                            href="Botox-Fillers.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Fillers</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Thread Lift</a
+                          >
+                        </div>
+                      </div>
+
+                      <!-- Genital Cosmetic Surgery with Submenu -->
+                      <div x-data="{ open: false }" class="relative">
+                        <button
+                          @click="open = !open"
+                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                        >
+                          Genital Cosmetic Surgery
+                          <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div
+                          x-show="open"
+                          @click.away="open = false"
+                          class="pl-4 space-y-1"
+                        >
+                          <a
+                            href="Genital-Cosmetic-Surgery.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Hymenoplasty</a
+                          >
+                          <a
+                            href="Genital-Cosmetic-Surgery.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Labiaplasty</a
+                          >
+                          <a
+                            href="Genital-Cosmetic-Surgery.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Vaginoplasty</a
+                          >
+                        </div>
+                      </div>
+
+                      <!-- Facial Cosmetic Surgery with Submenu -->
+                      <div x-data="{ open: false }" class="relative">
+                        <button
+                          @click="open = !open"
+                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                        >
+                          Facial Cosmetic Surgery
+                          <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div
+                          x-show="open"
+                          @click.away="open = false"
+                          class="pl-4 space-y-1"
+                        >
+                          <a
+                            href="rhinoplasty-nose-job-in-bangalore.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Rhinoplasty</a
+                          >
+                          <a
+                            href="rhinoplasty-nose-job-in-bangalore.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Facial Implants</a
+                          >
+                          <a
+                            href="Face-lift.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Dimple creation</a
+                          >
+                          <a
+                            href="Face-lift.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Microfat Injection</a
+                          >
+                          <a
+                            href="Face-lift.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Face lift</a
+                          >
+                          <a
+                            href="Face-lift.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Blepharoplasty</a
+                          >
+                          <a
+                            href="Face-lift.html"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Otoplasty</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Lip Augmentation</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Lip Reduction</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Ear lobe repair</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Mole excision</a
+                          >
+                          <a
+                            href="#"
+                            class="block text-gray-600 hover:bg-gray-100 py-2 pl-4"
+                            >Scar revision</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Picture Gallery-->
+                  <div x-data="{ open: false }" class="relative">
+                    <button
+                      @click="open = !open"
+                      class="w-full text-left text-gray-800 hover:bg-gray-100 py-2 pl-4 flex justify-between"
+                    >
+                      Picture Gallery <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div
+                      x-show="open"
+                      @click.away="open = false"
+                      class="pl-4 space-y-1"
+                    >
+                      <a
+                        href="Hair-Photos-Final-gallery.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Hair Restoration</a
+                      >
+                      <a
+                        href="Gynecomastia-Final-gallery.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Gynecomastia</a
+                      >
+                      <a
+                        href="Liposuction-Final-gallery.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Liposuction</a
+                      >
+                      <a
+                        href="Rhinoplasty-Final-gallery.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Rhinoplasty</a
+                      >
+                      <a
+                        href="Tummy-tuck-picture-gallery.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Tummy Tuck</a
+                      >
+                      <a
+                        href="Breast-Augmentation-gallery.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Breast Augmentation</a
+                      >
+                      <a
+                        href="Facility-Tour.html"
+                        class="block text-gray-700 hover:bg-gray-100 p-2 pl-4"
+                        >Facility Tour</a
+                      >
+                    </div>
+                  </div>
+                  <a
+                    href="patients-testimonial.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                    >Patient Testimonials</a
+                  >
+                  <a
+                    href="http://www.midascosmetic.com/blog/"
+                    target="_blank"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                    >Blog</a
+                  >
+                  <a
+                    href="medical-tourism.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                    >Medical Tourism</a
+                  >
+                  <a
+                    href="contact-us.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                    >Contact Us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header bottom ribbon Bar -->
+      <div class="bg-secondary">
+        <div
+          class="bg-secondary container py-2 px-4 flex flex-col md:flex-row justify-between items-center mx-auto"
+        >
+          <div class="flex items-center mb-2 md:mb-0">
+            <i class="fas fa-phone pr-2"></i>
+            <a
+              href="tel:+919880316201"
+              target="_blank"
+              rel="noopener"
+              class="cursor-pointer"
+              >9880316201</a
+            >
+            /
+            <a
+              href="tel:+919620192891"
+              target="_blank"
+              rel="noopener"
+              class="cursor-pointer"
+              >9620192891</a
+            >
+            <a
+              href="https://api.whatsapp.com/send?phone=919620192891&text=Hi%20Dr.%20Madhukumar%20M.G"
+              target="_blank"
+              class="text-sm md:text-base"
+              ><i
+                class="fab fa-whatsapp font-black text-green-900 pr-1 pl-3"
+              ></i>
+              9620192891</a
+            >
+          </div>
+          <a
+            class="bg-primary text-white px-4 py-2 rounded mb-2 md:mb-0 text-sm md:text-base"
+            href="#contact-form-bookappointment"
+          >
+            Book an appointment
+          </a>
+          <div class="flex w-full md:w-auto">
+            <!-- <input
+              type="text"
+              placeholder="Search here"
+              class="px-3 py-1 border border-gray-300 rounded-l w-full md:w-auto"
+            />
+            <button class="bg-primary text-white px-3 py-1 rounded-r">
+              <i class="fas fa-search"></i>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Home slider Section -->
+    <section class="md:px-0 relative pb-1">
+      <div class="w-full owl-carousel owl-theme">
+        <!-- Slide Gynecomastia -->
+        <div
+          class="item flex flex-col md:flex-row items-center p-0 md:p-6 bg-cover bg-center md:bg-[url('./images/Banner_Gynecomastia.png')]"
+        >
+          <!-- Mobile View -->
+          <div class="w-full md:hidden">
+            <div
+              class="bg-white bg-opacity-90 p-4 mobile-landscape:max-w-[400px] mobile-landscape:mx-auto"
+            >
+              <img
+                src="./images/Banner_Gynecomastia.png"
+                alt="Gynecomastia"
+                class="w-full h-40 mb-4 mobile-landscape:h-48"
+              />
+              <h1 class="text-xl font-bold mb-2 mobile-landscape:text-2xl">
+                Redefine Your Chest Shape
+              </h1>
+              <p class="text-gray-700 mb-4 mobile-landscape:text-base">
+                Midas Clinic offers you an opportunity for advanced gynecomastia
+                surgery, where you can achieve a well-defined, masculine chest
+                through the correct procedure and guidance.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/Gynaecomastia-Surgery-in-Bangalore.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+              >
+                Discover More</a
+              >
+            </div>
+          </div>
+          <!-- Desktop View -->
+          <div class="hidden md:flex w-full items-center">
+            <div class="w-full md:w-1/2 md:pr-8 mb-6 md:mb-0">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                Redefine Your Chest Shape
+              </h1>
+              <p class="text-lg mb-2">
+                Midas Clinic offers you an opportunity for advanced gynecomastia
+                surgery, where you can achieve a well-defined, masculine chest
+                through the correct procedure and guidance.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/Gynaecomastia-Surgery-in-Bangalore.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+              >
+                Discover More</a
+              >
+            </div>
+            <div class="w-full md:w-1/2"></div>
+          </div>
+        </div>
+        <!-- Slide Hair restoration -->
+        <div
+          class="item flex flex-col md:flex-row items-center p-0 md:p-6 bg-cover bg-center md:bg-[url('./images/Banner_Hair-Transplantation.png')]"
+        >
+          <!-- Mobile View -->
+          <div class="w-full md:hidden">
+            <div
+              class="bg-white bg-opacity-90 p-4 mobile-landscape:max-w-[400px] mobile-landscape:mx-auto"
+            >
+              <img
+                src="./images/Banner_Hair-Transplantation.png"
+                alt="Hair Transplantation"
+                class="w-full h-40 mb-4 mobile-landscape:h-48"
+              />
+              <h1 class="text-xl font-bold mb-2 mobile-landscape:text-2xl">
+                The Glory of Your Crown
+              </h1>
+              <p class="text-gray-700 mb-4 mobile-landscape:text-base">
+                Flaunt your mane with a successful hair transplant surgery,
+                complete with before-and-after procedure care, realistic
+                expectations about results, and achieving them.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/Hair-Restoration.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- Desktop View -->
+          <div class="hidden md:flex w-full items-center">
+            <div class="w-full md:w-1/2 md:pr-8 mb-6 md:mb-0">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                The Glory of Your Crown
+              </h1>
+              <p class="text-lg mb-2">
+                Flaunt your mane with a successful hair transplant surgery,
+                complete with before-and-after procedure care, realistic
+                expectations about results, and achieving them.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/Hair-Restoration.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+            <div class="w-full md:w-1/2"></div>
+          </div>
+        </div>
+        <!-- Slide Rhinoplasty -->
+        <div
+          class="item item1 flex flex-col md:flex-row items-center p-0 md:p-6 bg-cover bg-center md:bg-[url('./images/main-image8.png')]"
+        >
+          <!-- Mobile View -->
+          <div class="w-full md:hidden">
+            <div
+              class="bg-white bg-opacity-90 p-4 mobile-landscape:max-w-[400px] mobile-landscape:mx-auto"
+            >
+              <img
+                src="./images/main-image8.jpg"
+                alt="Rhinoplasty"
+                class="w-full h-40 mb-4 mobile-landscape:h-48"
+              />
+              <h1 class="text-xl font-bold mb-2 mobile-landscape:text-2xl">
+                More Than a Nose Job - A Transformation
+              </h1>
+              <p class="text-gray-700 mb-4 mobile-landscape:text-base">
+                Get a perfect shape by an experienced facial plastic surgeon who
+                listens to your desired aesthetic goals and strives to meet your
+                expectations.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/rhinoplasty-nose-job-in-bangalore.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- Desktop View -->
+          <div class="hidden md:flex w-full items-center">
+            <div class="w-1/3 mx-auto text-center">
+              <h1 class="text-3xl lg:text-3xl font-bold mb-4">
+                More Than a Nose Job - A Transformation
+              </h1>
+              <p class="text-lg mb-2">
+                Get a perfect shape by an experienced facial plastic surgeon who
+                listens to your desired aesthetic goals and strives to meet your
+                expectations.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/rhinoplasty-nose-job-in-bangalore.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Slide Liposuction -->
+        <div
+          class="item flex flex-col md:flex-row items-center p-0 md:p-6 bg-cover bg-center md:bg-[url('./images/Banner_liposuction.png')]"
+        >
+          <!-- Mobile View -->
+          <div class="w-full md:hidden">
+            <div
+              class="bg-white bg-opacity-90 p-4 mobile-landscape:max-w-[400px] mobile-landscape:mx-auto"
+            >
+              <img
+                src="./images/Banner_liposuction.png"
+                alt="Liposuction"
+                class="w-full h-40 mb-4 mobile-landscape:h-48"
+              />
+              <h1 class="text-xl font-bold mb-2 mobile-landscape:text-2xl">
+                Sculpt the Body You Deserve
+              </h1>
+              <p class="text-gray-700 mb-4 mobile-landscape:text-base">
+                Getting the desired shape is now as easy as reaching Midas
+                Clinic. Say goodbye to unwanted fat and discover your new self
+                with confidence.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/lipo.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- Desktop View -->
+          <div class="hidden md:flex w-full items-center">
+            <div class="w-full md:w-1/2 md:pr-8 mb-6 md:mb-0">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                Sculpt the Body You Deserve
+              </h1>
+              <p class="text-lg mb-2">
+                Getting the desired shape is now as easy as reaching Midas
+                Clinic. Say goodbye to unwanted fat and discover your new self
+                with confidence.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/lipo.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+            <div class="w-full md:w-1/2"></div>
+          </div>
+        </div>
+        <!-- Slide tummy tuck -->
+        <div
+          class="item flex flex-col md:flex-row items-center p-0 md:p-6 bg-cover bg-center md:bg-[url('./images/Main-Banner.png')]"
+        >
+          <!-- Mobile View -->
+          <div class="w-full md:hidden">
+            <div
+              class="bg-white bg-opacity-90 p-4 mobile-landscape:max-w-[400px] mobile-landscape:mx-auto"
+            >
+              <img
+                src="./images/Main-Banner.png"
+                alt="Tummy Tuck"
+                class="w-full h-40 mb-4 mobile-landscape:h-48"
+              />
+              <h1 class="text-xl font-bold mb-2 mobile-landscape:text-2xl">
+                Reclaim Your Waistline with Precision
+              </h1>
+              <p class="text-gray-700 mb-4 mobile-landscape:text-base">
+                Get rid of those extra pounds from the abdomen and tighten up
+                your muscles for a more sculpted midsection with a visibly flat
+                and firmer tummy.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/tummy-tuck.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- Desktop View -->
+          <div class="hidden md:flex w-full items-center">
+            <div class="w-full md:w-1/2 md:pr-8 mb-6 md:mb-0">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                Reclaim Your Waistline with Precision
+              </h1>
+              <p class="text-lg mb-2">
+                Get rid of those extra pounds from the abdomen and tighten up
+                your muscles for a more sculpted midsection with a visibly flat
+                and firmer tummy.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/tummy-tuck.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+            <div class="w-full md:w-1/2"></div>
+          </div>
+        </div>
+        <!-- Slide Breast-Agumentation -->
+        <div
+          class="item flex flex-col md:flex-row items-center p-0 md:p-6 bg-cover bg-center md:bg-[url('./images/Banner_Breast-Agumentation.png')]"
+        >
+          <!-- Mobile View -->
+          <div class="w-full md:hidden">
+            <div
+              class="bg-white bg-opacity-90 p-4 mobile-landscape:max-w-[400px] mobile-landscape:mx-auto"
+            >
+              <img
+                src="./images/Banner_Breast-Agumentation.png"
+                alt="Breast Augmentation"
+                class="w-full h-40 mb-4 mobile-landscape:h-48"
+              />
+              <h1 class="text-xl font-bold mb-2 mobile-landscape:text-2xl">
+                Enhance Your Curves Elegantly
+              </h1>
+              <p class="text-gray-700 mb-4 mobile-landscape:text-base">
+                Get your desired shape with fuller, more symmetrical, and
+                natural-looking breasts that enhance your looks and confidence
+                with utmost satisfaction.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/Breast-surgery.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- Desktop View -->
+          <div class="hidden md:flex w-full items-center">
+            <div class="w-full md:w-1/2 md:pr-8 mb-6 md:mb-0">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                Enhance Your Curves Elegantly
+              </h1>
+              <p class="text-lg mb-2">
+                Get your desired shape with fuller, more symmetrical, and
+                natural-looking breasts that enhance your looks and confidence
+                with utmost satisfaction.
+              </p>
+              <a
+                href="https://www.midascosmetic.com/Breast-surgery.html"
+                class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                >Learn More</a
+              >
+            </div>
+            <div class="w-full md:w-1/2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Certifications Section -->
+    <section class="bg-gray-50">
+      <div class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center text-primary mb-10">
+          Certifications & Memberships
+        </h2>
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-7 gap-8 justify-items-center items-center"
+        >
+          <img
+            src="./images/KPME-registration-certificate.png"
+            alt="KPME registration certificate"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+          <img
+            src="./images/Affiliation-Association-Of-Plastic-Surgeons-of-India.jpg"
+            alt="ISAPS certification"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+          <img
+            src="./images/Affiliation-Indian-association-of-aesthetic-plastic-surgery.jpg"
+            alt="Plastic Surgery certification"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+          <img
+            src="./images/Affiliation-ISAPS.jpg"
+            alt="Medical association"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+          <img
+            src="./images/Affiliation-Safety.jpg"
+            alt="Surgery certification"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+          <img
+            src="./images/Affiliation-The-Association-of-Hair-Restoration.jpg"
+            alt="Rhinoplasty society"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+          <img
+            src="./images/The-Association-of-Hair-Restoration-Surgeons-of-India-logo.jpg"
+            alt="Rhinoplasty society"
+            class="h-32 object-contain cert-zoom-img cursor-pointer"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action Section -->
+    <section class="bg-white">
+      <div
+        class="bg-pink-600 py-4 flex flex-col md:flex-row justify-center items-center"
+      >
+        <div class="flex justify-center items-center p-2">
+          <form
+            class="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2 px-4"
+            action="postservuy.php"
+            method="post"
+          >
+            <h2 class="w-full text-center text-white font-bold text-xl mb-4">
+              REQUEST A CALL BACK
+            </h2>
+
+            <input
+              type="text"
+              name="txtname"
+              placeholder="Full Name*"
+              class="px-4 py-3 rounded-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-700 w-48"
+              required
+            />
+
+            <input
+              type="email"
+              name="txtmail"
+              placeholder="Email*"
+              class="px-4 py-3 rounded-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-700 w-48"
+              required
+            />
+
+            <input
+              type="tel"
+              name="txtphone"
+              placeholder="Phone*"
+              class="px-4 py-3 rounded-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-700 w-48"
+              required
+            />
+            <div class="relative">
+              <select
+                name="txtservicerequired"
+                class="w-full h-12 text-base px-4 pr-12 rounded border border-gray-300 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed transition"
+                style="
+                  -webkit-appearance: none;
+                  appearance: none;
+                  background-image: none;
+                  padding: 0 0 0 8px;
+                "
+                size="1"
+              >
+                <option value="None">Select Service</option>
+                <option value="Hair Restoration">Hair Restoration</option>
+                <option value="Liposuction">Liposuction</option>
+                <option value="Gynecomastia">Gynecomastia</option>
+                <option value="Tummy Tuck">Tummy Tuck</option>
+                <option value="Post Weight Loss Tucking">
+                  Post Weight Loss Tucking
+                </option>
+                <option value="Breast Reshaping">Breast Reshaping</option>
+                <option value="Rhinoplasty">Rhinoplasty</option>
+                <option value="Botox">Botulinum Toxin</option>
+                <option value="Fillers">Fillers</option>
+                <option value="Hymenoplasty">Hymenoplasty</option>
+                <option value="Labiaplasty">Labiaplasty</option>
+                <option value="Vaginoplasty">Vaginoplasty</option>
+                <option value="Dimple creation">Dimple creation</option>
+                <option value="Micro-Fat Injection">Micro-Fat Injection</option>
+                <option value="Face lift">Face lift</option>
+                <option value="Blepharoplasty">Blepharoplasty</option>
+                <option value="Otoplasty">Otoplasty</option>
+                <option value="Facial Implants">Facial Implants</option>
+                <option value="Liposuction">Others</option>
+              </select>
+              <svg
+                class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 10.17l3.71-2.94a.75.75 0 111.04 1.08l-4.24 3.36a.75.75 0 01-.94 0L5.21 8.31a.75.75 0 01.02-1.1z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <input
+              type="text"
+              name="txtquery"
+              placeholder="Your Message / Query"
+              class="px-4 py-3 rounded-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-700 w-48"
+              required
+            />
+
+            <button
+              type="submit"
+              class="px-4 py-2 rounded-sm bg-purple-800 text-white font-medium hover:bg-purple-900"
+            >
+              Submit Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Doctor Section -->
+    <section
+      class="flex flex-col md:flex-row p-6 md:p-10 mobile-landscape:flex-col"
+    >
+      <div class="w-full md:w-1/3 text-center mb-6 md:mb-0">
+        <img
+          src="./images/Dr-Madhukumar-M-G.jpeg"
+          alt="Dr. Madhukumar M.G"
+          class="mx-auto max-w-[300px] md:max-w-[320px]"
+        />
+      </div>
+      <div class="w-full md:w-2/3 md:pl-8">
+        <h2 class="text-2xl font-bold mb-2">About Doctor</h2>
+        <h3 class="text-2xl text-primary font-bold mb-2">
+          Dr. Madhukumar M.G.
+        </h3>
+        <p class="font-bold mb-4">
+          MCh(Plastic Surgery), DNB (Plastic Surgery)<br />Consultant Cosmetic
+          Plastic Surgeon
+        </p>
+        <p>
+          Dr. Madhukumar is a Consultant Plastic and Hair Restoration Surgeon,
+          practicing in Bangalore with more than 20 years of experience. He
+          received his Super-speciality Plastic Surgery training at J.J.group of
+          hospitals in Mumbai. He also holds the degree of Diplomate of National
+          Board (DNB) in Plastic Surgery.
+        </p>
+        <p class="mt-8">
+          <a
+            href="https://www.midascosmetic.com/about-us.html"
+            class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+            >Learn More</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!--Gynaecomastia section-->
+    <style>
+      /* Make the gallery container and each gallery panel full width */
+      .inrcontentpanel {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+        padding: 0 !important;
+      }
+      .inrcontentpanel .galleryleftpanel {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        float: none !important;
+        margin: 0 0 1rem 0 !important;
+      }
+      /* Make individual thumbnails wrap responsively */
+      #vlightbox1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      #vlightbox1 a {
+        flex: 1 1 calc(33.33% - 8px);
+        max-width: calc(33.33% - 8px);
+      }
+      #vlightbox1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      @media (max-width: 768px) {
+        #vlightbox1 a {
+          flex: 1 1 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+
+    <section class="py-10 px-4 md:px-10 mx-auto">
+      <div
+        class="container mx-auto p-0 flex flex-row md:flex-row gap-4 justify-between"
+        style="
+          border: 1px solid #9c3cad;
+          background: url(https://www.midascosmetic.com/images/heading-bg.jpg)
+            repeat-y left;
+        "
+      >
+        <div>
+          <h4 style="margin: 18px 0 0 5px; float: left; width: 200px">
+            TUMMY TUCK
+          </h4>
+        </div>
+        <div>
+          <img
+            src="https://www.midascosmetic.com/pics/tummy-tuck-heading-img.jpg"
+            alt=""
+            width="92"
+            height="54"
+          />
+        </div>
+      </div>
+
+      <div class="container mx-auto p-4 flex flex-col md:flex-row gap-4">
+        <div class="inrcontentpanel">
+          <!--gallery Case1 Panel -->
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 1
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case1-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case1-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case1-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case1-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case1-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case1-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 2
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case2-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case2-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case2-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case2-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case2-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case2-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 3
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case3-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case3-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case3-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case3-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case3-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case3-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 4
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case4-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case4-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case4-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case4-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case4-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case4-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 5
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case5-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case5-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case5-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case5-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case5-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case5-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 6
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case6-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case6-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case6-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case6-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case6-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case6-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 7
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case7-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case7-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case7-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case7-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case7-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case7-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 8
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case8-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case8-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case8-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case8-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case8-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case8-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 9
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case9-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case9-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case9-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case9-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case9-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case9-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 10
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case10-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case10-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case10-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case10-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/aug-2022-case10-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/aug-2022-case10-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 11
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case6-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case6-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case6-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case6-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case6-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case6-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 12
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case7-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case7-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case7-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case7-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case7-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case7-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 13
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case8-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case8-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case8-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case8-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case8-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case8-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 14
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case9-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case9-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case9-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case9-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case9-Tummy-tuck3.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case9-Tummy-tuck3.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 15
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case10-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case10-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case10-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case10-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 16
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case11-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case11-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case11-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case11-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 17
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case12-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case12-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case12-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case12-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 18
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case13-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case13-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case13-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case13-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 19
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case14-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case14-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case14-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case14-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 20
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case15-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case15-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case15-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case15-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <div class="galleryleftpanel">
+            <div
+              class="heading"
+              style="background: #f1f1f1; padding: 5px; margin: 0 4px 0 2px"
+            >
+              CASE 21
+            </div>
+            <div id="vlightbox1">
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case16-Tummy-tuck1.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case16-Tummy-tuck1.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+              <a
+                class="vlightbox1"
+                href="https://www.midascosmetic.com/GALLERY/data/images1/case16-Tummy-tuck2.jpg"
+                title="Disclaimer - Results May Vary from Person to Person"
+                ><img
+                  src="https://www.midascosmetic.com/GALLERY/data/thumbnails1/case16-Tummy-tuck2.jpg"
+                  alt="Disclaimer - Results May Vary from Person to Person"
+                  border="0"
+              /></a>
+            </div>
+          </div>
+          <!--End gallery Panel case2 -->
+          <!--gallery Case3 Panel -->
+
+          <!--End gallery Pane4 case1 1 -->
+        </div>
+      </div>
+    </section>
+
+    <!---FAQ-->
+
+    <!-- Procedures Section -->
+
+    <!-- BEFORE & AFTER IMAGES Section -->
+    <section class="py-10 px-4">
+      <div class="container mx-auto">
+        <h2
+          class="text-center text-2xl md:text-3xl font-bold text-purple-800 mb-8"
+        >
+          BEFORE & AFTER IMAGES
+        </h2>
+
+        <!-- ...existing code... -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <!-- Gynecomastia -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://www.midascosmetic.com/GALLERY/data/images1/case2-3gynecomastiaJuly2024-17.jpg"
+              alt="Gynecomastia"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">Gynecomastia</h3>
+            <a
+              href="https://www.midascosmetic.com/Gynecomastia-Final-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Hair -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://www.midascosmetic.com/GALLERY/data/images1/april-2021-case1-img1-lightbox.jpg"
+              alt="Hair Transplantation"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">
+              Hair Transplantation
+            </h3>
+            <a
+              href="https://www.midascosmetic.com/Hair-Photos-Final-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Rhinoplasty -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://www.midascosmetic.com/GALLERY/Rhinoplasty/images1/mar-2022-case5-img4-lightbox.jpg"
+              alt="Rhinoplasty"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">Rhinoplasty</h3>
+            <a
+              href="https://www.midascosmetic.com/Rhinoplasty-Final-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Liposuction -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://www.midascosmetic.com/GALLERY/data/images1/case02-3Liposuction-Abdomen-sep2021.jpg"
+              alt="Liposuction"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">Liposuction</h3>
+            <a
+              href="https://www.midascosmetic.com/Liposuction-Final-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Tummy Tuck -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://www.midascosmetic.com/GALLERY/data/images1/case1-Tummy-tuck3.jpg"
+              alt="Tummy Tuck"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">Tummy Tuck</h3>
+            <a
+              href="https://www.midascosmetic.com/Tummy%20tuck-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Breast Augmentation -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://www.midascosmetic.com/GALLERY/data/images1/case9-Breast-Augmentation2.jpg"
+              alt="Breast Augmentation"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">
+              Breast Augmentation
+            </h3>
+            <a
+              href="https://www.midascosmetic.com/Breast-Augmentation-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Genital Cosmetic Surgery -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://midashairclinic.com/gallery/data/images1/malehairlossresultcase2img3.jpg"
+              alt="Genital Cosmetic Surgery"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">Male hair loss</h3>
+            <a
+              href="https://midashairclinic.com/hair-loss-results-male-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+
+          <!-- Facial Cosmetic Surgery -->
+          <div class="bg-white rounded shadow p-4 flex flex-col items-center">
+            <img
+              src="https://midashairclinic.com/gallery/data/images1/femalehairlossresultcase8img2.jpg"
+              alt="Facial Cosmetic Surgery"
+              class="w-full h-40 object-cover rounded mb-3 transition-transform hover:scale-105 gallery-zoom-img"
+            />
+
+            <h3 class="text-pink-600 font-semibold mb-2">Female Hair loss</h3>
+            <a
+              href="https://midashairclinic.com/hair-loss-results-female-gallery.html"
+              target="_blank"
+              rel="noopener"
+              class="border border-purple-800 text-purple-800 px-4 py-1 rounded-full hover:bg-purple-800 hover:text-white transition text-center"
+            >
+              View More
+            </a>
+          </div>
+        </div>
+        <!-- ...existing code... -->
+      </div>
+    </section>
+
+    <!-- Book an Appointment -->
+    <section class="py-10 px-4 md:px-10 max-w-7xl mx-auto">
+      <h2 class="text-4xl font-bold text-center text-primary mb-8">
+        Check Our reviews on Different Platforms
+      </h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center mb-6"
+      >
+        <!-- First row: 2 images -->
+        <a
+          href="https://www.google.co.in/search?q=midas+cosmetic+surgery+clinic&amp;oq=midas+cosmetic+su&amp;aqs=chrome.1.69i57j69i59j69i60l2.3510j0j1&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x3bae15a214390619:0x1bb8393079c16dff,1,,,"
+          target="_blank"
+          rel="noopener"
+          class="block bg-white rounded-lg shadow hover:shadow-lg transition p-2"
+        >
+          <img
+            src="./images/Midas-Cosmetic-Surgery-Clinic-Google-Maps.jpg"
+            alt="Midas Cosmetic Surgery Clinic Google Maps"
+            class="w-auto object-contain mx-auto"
+          />
+        </a>
+        <a
+          href="https://www.practo.com/bangalore/doctor/dr-m-g-madhukumar-cosmetic-plastic-surgeon-1?specialization=Plastic%20Surgeon"
+          target="_blank"
+          rel="noopener"
+          class="block bg-white rounded-lg shadow hover:shadow-lg transition p-2"
+        >
+          <img
+            src="./images/Practo-Midas-Cosmetic-Surgery-Clinic-Reviews.jpg"
+            alt="Midas Cosmetic Surgery Clinic Practo Reviews"
+            class="w-auto object-contain mx-auto"
+          />
+        </a>
+
+        <!-- Second row: 3 images, centered -->
+
+        <div
+          class="col-span-1 md:col-span-3 flex flex-col md:flex-row justify-center gap-6"
+        >
+          <a
+            href="https://www.whatclinic.com/cosmetic-plastic-surgery/india/bangalore/midas-cosmetic-surgery-clinic"
+            target="_blank"
+            rel="noopener"
+            class="block bg-white rounded-lg shadow hover:shadow-lg transition p-2"
+          >
+            <img
+              src="./images/WhatClinic.com-Reviews.jpg"
+              alt="Whatclinic Reviews"
+              class="w-auto object-contain mx-auto"
+            />
+          </a>
+          <a
+            href="https://www.realself.com/find/India/Bangalore/Plastic-Surgeon/Madhu-Kumar"
+            target="_blank"
+            rel="noopener"
+            class="block bg-white rounded-lg shadow hover:shadow-lg transition p-2"
+          >
+            <img
+              src="./images/Realself-Reviews-.jpg.jpg"
+              alt="Realself Reviews"
+              class="w-auto object-contain mx-auto"
+            />
+          </a>
+          <a
+            href="https://www.justdial.com/Bangalore/Midas-Cosmetic-Surgery-Clinic-Opposite-Vijaya-Junior-College-Jayanagar/080PXX80-XX80-100810144826-M9L8_BZDET?xid=QmFuZ2Fsb3JlIE1pZGFzIENvc21ldGljIFN1cmdlcnkgQ2xpbmlj"
+            target="_blank"
+            rel="noopener"
+            class="block bg-white rounded-lg shadow hover:shadow-lg transition p-2"
+          >
+            <img
+              src="./images/JustDial.jpg"
+              alt="JustDial"
+              class="w-auto object-contain mx-auto"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <div
+      class="bg-pink-600 text-white text-center py-8 flex flex-col items-center justify-center relative"
+    >
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">
+        Start Your Transformation Today
+      </h2>
+      <a
+        class="bg-purple-800 text-white px-6 py-3 rounded-full font-semibold text-lg"
+      >
+        Book Consultation
+      </a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="flex flex-col md:flex-row gap-4 p-4 bg-white">
+      <!-- Google Maps -->
+      <div class="w-full md:w-1/3 h-96">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6792245152583!2d77.583943914304!3d12.928326719325602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15a214390619%3A0x1bb8393079c16dff!2sMidas+Cosmetic+Surgery+Clinic!5e0!3m2!1sen!2sin!4v1546810829527"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </div>
+
+      <!-- Map with Metro Station -->
+      <div class="w-full md:w-1/3 h-96">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2s!4v1489818485735!6m8!1m7!1saYVM5sJTjZIAAAQvxeGv4Q!2m2!1d12.92815192284527!2d77.58605787145177!3f359!4f0!5f0.7820865974627469"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div
+        class="w-full md:w-1/3 bg-purple-800 p-6 rounded shadow text-white scroll-mt-[12rem]"
+        id="contact-form-bookappointment"
+      >
+        <form
+          action="postcontact.php"
+          method="post"
+          class="flex flex-col gap-4"
+        >
+          <input
+            type="text"
+            name="txtname"
+            placeholder="Full Name*"
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            required
+          />
+          <input
+            type="email"
+            name="txtmail"
+            placeholder="Email*"
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            required
+          />
+          <input
+            type="tel"
+            name="txtphone"
+            placeholder="Phone*"
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            required
+          />
+          <select
+            name="txtservicerequired"
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            required
+          >
+            <option value="None" selected="selected">
+              Select Service Option
+            </option>
+            <option value="Hair Restoration">Hair Restoration</option>
+            <option value="Liposuction">Liposuction</option>
+            <option value="Gynecomastia">Gynecomastia</option>
+            <option value="Tummy Tuck">Tummy Tuck</option>
+            <option value="Post Weight Loss Tucking">
+              Post Weight Loss Tucking
+            </option>
+            <option value="Breast Reshaping">Breast Reshaping</option>
+            <option value="Rhinoplasty">Rhinoplasty</option>
+            <option value="Botulinum Toxin">Botulinum Toxin</option>
+            <option value="Fillers">Fillers</option>
+            <option value="Hymenoplasty">Hymenoplasty</option>
+            <option value="Labiaplasty">Labiaplasty</option>
+            <option value="Vaginoplasty">Vaginoplasty</option>
+            <option value="Dimple creation">Dimple creation</option>
+            <option value="Micro-Fat Injection">Micro-Fat Injection</option>
+            <option value="Face lift">Face lift</option>
+            <option value="Blepharoplasty">Blepharoplasty</option>
+            <option value="Otoplasty">Otoplasty</option>
+            <option value="Facial Implants">Facial Implants</option>
+            <option value="Liposuction">Others</option>
+          </select>
+
+          <input
+            type="date"
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            required
+            name="txtapp"
+            id="appointmentDate"
+            placeholder="Appointment Date"
+          />
+          <select
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            required
+            name="txttime"
+          >
+            <option value="Select Time">Select Time</option>
+            <option value="10:00AM">10:00AM</option>
+            <option value="10:30AM">10:30AM</option>
+            <option value="11:00AM">11:00AM</option>
+            <option value="11:30AM">11:30AM</option>
+            <option value="12:00PM">12:00PM</option>
+            <option value="12:30PM">12:30PM</option>
+            <option value="2:00PM">2:00PM</option>
+            <option value="2:30PM">2:30PM</option>
+            <option value="3:00PM">3:00PM</option>
+            <option value="3:30PM">3:30PM</option>
+            <option value="4:00PM">4:00PM</option>
+            <option value="4:30PM">4:30PM</option>
+            <option value="5:00PM">5:00PM</option>
+          </select>
+          <textarea
+            name="txtquery"
+            placeholder="Message"
+            class="px-4 py-2 rounded text-gray-800 focus:outline-none"
+            cols="35"
+            rows="5"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-pink-600 px-4 py-2 rounded text-white font-semibold hover:bg-pink-700"
+          >
+            Submit Now
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white text-gray-800 p-6">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Clinic Address -->
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <img src="images/footer-icon.png" alt="" width="26" height="26" />
+            <h3 class="font-bold text-lg mb-0">Clinic Address</h3>
+          </div>
+          <a href="https://www.midascosmetic.com/"
+            ><img
+              src="./images/logo-midas-cosmetic-surgery-clinic.png"
+              alt="Midas Cosmetic Logo"
+              class="h-16 md:h-24"
+          /></a>
+          <div class="location">
+            <h3><b>Midas Cosmetic Surgery Clinic</b></h3>
+            <div class="bodytext">
+              # 301, 2nd Floor, Esteem Kanaka Plaza, No.652, 11th Main, 4th
+              Block Jayanagar, Bangalore-560011, Karnataka, India.
+            </div>
+            <div class="bodytext">
+              <strong>Parking</strong>:&nbsp;&nbsp;Above Jayanagar 4th Block Bus
+              Stop
+            </div>
+            <div class="bodytext">
+              <strong>Clinic Timings </strong><br />
+              10:00 AM to 6:30 PM – Monday to Saturday<br />Consultation With
+              Prior Appointment
+            </div>
+            <div class="cphone bodytext" style="margin: 0px">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+919880316201" target="_blank" rel="noopener"
+                >+91 98803 16201</a
+              >
+              /
+              <a href="tel:+919620192891" target="_blank" rel="noopener"
+                >+91 96201 92891</a
+              >
+            </div>
+            <div class="bodytext" style="margin: 0px">
+              <a
+                href="https://api.whatsapp.com/send?phone=919620192891&text=Hi%20Dr.%20Madhukumar%20M.G"
+                target="_blank"
+                style="text-decoration: none; color: inherit"
+              >
+                <img
+                  src="images/whatsapp24.png"
+                  alt="WhatsApp"
+                  style="
+                    height: 20px;
+                    vertical-align: middle;
+                    margin-top: -2px;
+                    display: inline;
+                  "
+                />
+                +91 9620192891
+              </a>
+            </div>
+            <div class="cmail bodytext" style="margin: 0px">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:midascosmetic@gmail.com"
+                >midascosmetic@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <img src="images/footer-icon.png" alt="" width="26" height="26" />
+            <h3 class="font-bold text-lg mb-0">Quick Links</h3>
+          </div>
+          <ul class="space-y-1">
+            <li>
+              <a
+                href="https://www.midascosmetic.com/index.html"
+                class="hover:underline"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/about-us.html"
+                class="hover:underline"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://www.midascosmetic.com/blog/"
+                class="hover:underline"
+                >Blogs</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/contact-us.html"
+                class="hover:underline"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/medical-tourism.html"
+                class="hover:underline"
+                >Medical Tourism</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/patients-testimonial.html"
+                class="hover:underline"
+                >Patient Testimonials</a
+              >
+            </li>
+          </ul>
+
+          <div class="flex space-x-2 mt-4">
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              rel="noopener"
+              class="bg-[#1877f3] rounded-full w-9 h-9 flex items-center justify-center hover:opacity-80 transition"
+            >
+              <i class="fab fa-facebook-f text-white text-lg"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener"
+              class="bg-[#1da1f2] rounded-full w-9 h-9 flex items-center justify-center hover:opacity-80 transition"
+            >
+              <i class="fab fa-twitter text-white text-lg"></i>
+            </a>
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener"
+              class="bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 rounded-full w-9 h-9 flex items-center justify-center hover:opacity-80 transition"
+            >
+              <i class="fab fa-instagram text-white text-lg"></i>
+            </a>
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noopener"
+              class="bg-[#0077b5] rounded-full w-9 h-9 flex items-center justify-center hover:opacity-80 transition"
+            >
+              <i class="fab fa-linkedin-in text-white text-lg"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Body Care -->
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <img src="images/footer-icon.png" alt="" width="26" height="26" />
+            <h3 class="font-bold text-lg mb-0">Services</h3>
+          </div>
+          <ul class="space-y-1">
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Gynaecomastia-Surgery-in-Bangalore.html"
+                class="hover:underline"
+                >Gynecomastia</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Hair-Restoration.html"
+                class="hover:underline"
+                >Hair Transplant</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/lipo.html"
+                class="hover:underline"
+                >Liposuction</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/rhinoplasty-nose-job-in-bangalore.html"
+                class="hover:underline"
+                >Rhinoplasty or Nose Job</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Botox-Fillers.html"
+                class="hover:underline"
+                >Botulinum Toxin & Fillers</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/tummy-tuck.html"
+                class="hover:underline"
+                >Tummy Tuck</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Breast-surgery.html"
+                class="hover:underline"
+                >Breast Reshaping</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Hair-Restoration.html"
+                class="hover:underline"
+                >Hair Restoration</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://midashairclinic.com/hair-loss-results-male-gallery.html"
+                class="hover:underline"
+                >Male Hair Loss Treatment</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://midashairclinic.com/hair-loss-results-female-gallery.html"
+                class="hover:underline"
+                >Female Hair Loss Treatment</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Genital-Cosmetic-Surgery.html"
+                class="hover:underline"
+                >Genital Cosmetic Surgeries</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Face Care -->
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <img src="images/footer-icon.png" alt="" width="26" height="26" />
+            <h3 class="font-bold text-lg mb-0">Picture Gallery</h3>
+          </div>
+
+          <ul class="space-y-1">
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Hair-Photos-Final-gallery.html"
+                class="hover:underline"
+                >Hair Restoration</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Gynecomastia-Final-gallery.html"
+                class="hover:underline"
+                >Gynecomastia</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Rhinoplasty-Final-gallery.html"
+                class="hover:underline"
+                >Rhinoplasty</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Liposuction-Final-gallery.html"
+                class="hover:underline"
+                >Liposuction</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Tummy%20tuck-gallery.html"
+                class="hover:underline"
+                >Tummy Tuck</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Breast-Augmentation-gallery.html"
+                class="hover:underline"
+                >Breast Augmentation</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.midascosmetic.com/Facility-Tour.html"
+                class="hover:underline"
+                >Facility Tour</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section -->
+    <footer class="bg-primary text-white py-4 text-center">
+      <p>&copy; 2025 Midas Cosmetic. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const buttons = document.querySelectorAll(".faq-btn");
+      const titleEl = document.getElementById("faq-title");
+      const textEl = document.getElementById("faq-text");
+      const imgEl = document.getElementById("faq-image");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Remove active styles from all buttons
+          buttons.forEach((btn) =>
+            btn.classList.remove(
+              "bg-purple-800",
+              "text-white",
+              "font-semibold",
+            ),
+          );
+          buttons.forEach((btn) =>
+            btn.classList.add("bg-gray-200", "text-gray-800"),
+          );
+
+          // Add active styles to clicked button
+          button.classList.remove("bg-gray-200", "text-gray-800");
+          button.classList.add("bg-purple-800", "text-white", "font-semibold");
+
+          // Update main content
+          titleEl.textContent = button.getAttribute("data-title");
+
+          // Allow HTML in data-content
+          const content = button.getAttribute("data-content");
+          if (content && content.trim().startsWith("<")) {
+            textEl.innerHTML = content;
+          } else {
+            textEl.textContent = content;
+          }
+
+          // Handle multiple images
+          const imgUrls = button.getAttribute("data-img").split(",");
+          imgEl.src = imgUrls[0];
+
+          // Add navigation for multiple images if needed
+          let currentImgIndex = 0;
+          const updateImage = (direction) => {
+            currentImgIndex =
+              (currentImgIndex + direction + imgUrls.length) % imgUrls.length;
+            imgEl.src = imgUrls[currentImgIndex];
+          };
+
+          const navContainer = document.getElementById("image-navigation");
+          if (navContainer) {
+            navContainer.innerHTML = `
+              <button id="prev-img" class="px-2 py-1 bg-gray-300 rounded">Prev</button>
+              <button id="next-img" class="px-2 py-1 bg-gray-300 rounded">Next</button>
+            `;
+            document
+              .getElementById("prev-img")
+              .addEventListener("click", () => updateImage(-1));
+            document
+              .getElementById("next-img")
+              .addEventListener("click", () => updateImage(1));
+          }
+        });
+      });
+    </script>
+    <script>
+      // Basic slider functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const dots = document.querySelectorAll(
+          ".flex.justify-center.my-4 span",
+        );
+
+        dots.forEach((dot, index) => {
+          dot.addEventListener("click", function () {
+            dots.forEach((d) => d.classList.remove("bg-gray-800"));
+            dots.forEach((d) => d.classList.add("bg-gray-300"));
+            this.classList.remove("bg-gray-300");
+            this.classList.add("bg-gray-800");
+          });
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        var $owl = $(".owl-carousel");
+        $owl.owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          dots: true,
+          autoplay: true,
+          autoplayTimeout: 4500,
+          autoplayHoverPause: false, // Disable pause on mouseover
+          touchDrag: true,
+          mouseDrag: true,
+          navText: ["&#10094;", "&#10095;"],
+          responsive: {
+            0: { items: 1 },
+            600: { items: 1 },
+            1000: { items: 1 },
+          },
+        });
+
+        // Reset autoplay timer on dot click
+        $owl.on("click", ".owl-dot", function () {
+          $owl.trigger("stop.owl.autoplay");
+          $owl.trigger("play.owl.autoplay", [4500]);
+        });
+      });
+    </script>
+    <script>
+      // Zoom-in modal for gallery images
+      document.querySelectorAll(".gallery-zoom-img").forEach((img) => {
+        img.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.getElementById("zoom-img").src = this.src;
+          document.getElementById("zoom-modal").classList.remove("hidden");
+          document.getElementById("zoom-controls").classList.add("hidden");
+        });
+      });
+      document
+        .getElementById("faq-content")
+        .addEventListener("click", function (e) {
+          if (e.target.classList.contains("gallery-zoom-img")) {
+            document.getElementById("zoom-img").src = e.target.src;
+            document.getElementById("zoom-modal").classList.remove("hidden");
+            document.getElementById("zoom-controls").classList.add("hidden");
+          }
+        });
+    </script>
+    <!-- Add before </body> -->
+    <div
+      id="zoom-modal"
+      class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden"
+    >
+      <div
+        id="zoom-modal-content"
+        class="relative bg-white rounded shadow-lg p-4 flex flex-col items-center"
+      >
+        <button
+          id="zoom-close"
+          class="absolute top-2 right-2 text-gray-700 hover:text-red-600 text-2xl font-bold"
+          aria-label="Close"
+          style="z-index: 2"
+        >
+          &times;
+        </button>
+        <img
+          id="zoom-img"
+          src=""
+          class="max-h-[70vh] max-w-[90vw] rounded shadow-lg border-4 border-white mb-4"
+        />
+        <div class="flex gap-4 mt-2" id="zoom-controls">
+          <button
+            id="zoom-prev"
+            class="text-2xl px-3 py-1 rounded bg-gray-200 hover:bg-gray-300"
+          >
+            prev
+          </button>
+          <button
+            id="zoom-play"
+            class="text-2xl px-3 py-1 rounded bg-gray-200 hover:bg-gray-300"
+          >
+            &#9654;
+          </button>
+          <button
+            id="zoom-next"
+            class="text-2xl px-3 py-1 rounded bg-gray-200 hover:bg-gray-300"
+          >
+            next
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      // filepath: d:\niraj\sideproject\midascosmetic\midas_new_curls_1june.html
+      const certImgs = Array.from(document.querySelectorAll(".cert-zoom-img"));
+      const modal = document.getElementById("zoom-modal");
+      const modalContent = document.getElementById("zoom-modal-content");
+      const zoomImg = document.getElementById("zoom-img");
+      const closeBtn = document.getElementById("zoom-close");
+      const prevBtn = document.getElementById("zoom-prev");
+      const nextBtn = document.getElementById("zoom-next");
+      const playBtn = document.getElementById("zoom-play");
+
+      let currentIdx = 0;
+      let playInterval = null;
+
+      function showModal(idx) {
+        currentIdx = idx;
+        zoomImg.src = certImgs[currentIdx].src;
+        modal.classList.remove("hidden");
+      }
+
+      function closeModal() {
+        modal.classList.add("hidden");
+        stopPlay();
+      }
+
+      function showNext() {
+        currentIdx = (currentIdx + 1) % certImgs.length;
+        zoomImg.src = certImgs[currentIdx].src;
+      }
+
+      function showPrev() {
+        currentIdx = (currentIdx - 1 + certImgs.length) % certImgs.length;
+        zoomImg.src = certImgs[currentIdx].src;
+      }
+
+      function startPlay() {
+        playBtn.textContent = "❚❚";
+        playInterval = setInterval(showNext, 2000);
+      }
+
+      function stopPlay() {
+        playBtn.textContent = "▶";
+        if (playInterval) clearInterval(playInterval);
+        playInterval = null;
+      }
+
+      certImgs.forEach((img, idx) => {
+        img.addEventListener("click", () => {
+          showModal(idx);
+          document.getElementById("zoom-controls").classList.remove("hidden");
+        });
+      });
+
+      closeBtn.addEventListener("click", closeModal);
+
+      nextBtn.addEventListener("click", showNext);
+      prevBtn.addEventListener("click", showPrev);
+
+      playBtn.addEventListener("click", function () {
+        if (playInterval) {
+          stopPlay();
+        } else {
+          startPlay();
+        }
+      });
+
+      // Close modal if clicked outside modal content
+      modal.addEventListener("click", function (e) {
+        if (e.target === modal) closeModal();
+      });
+    </script>
+    <script>
+      document.querySelectorAll(".accordion-toggle").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const content = btn.nextElementSibling;
+          const icon = btn.querySelector(".icon");
+          const isHidden = content.classList.contains("hidden");
+
+          // Close all accordions
+          document
+            .querySelectorAll(".accordion-content")
+            .forEach((el) => el.classList.add("hidden"));
+          document.querySelectorAll(".accordion-toggle").forEach((el) => {
+            el.classList.remove("bg-purple-800", "text-white");
+            el.classList.add("bg-gray-200", "text-gray-800");
+            const ic = el.querySelector(".icon");
+            if (ic) {
+              ic.classList.remove("fa-minus");
+              ic.classList.add("fa-plus");
+            }
+          });
+
+          // If the clicked one was hidden, open it
+          if (isHidden) {
+            content.classList.remove("hidden");
+            btn.classList.remove("bg-gray-200", "text-gray-800");
+            btn.classList.add("bg-purple-800", "text-white");
+            if (icon) {
+              icon.classList.remove("fa-plus");
+              icon.classList.add("fa-minus");
+            }
+          }
+        });
+      });
+    </script>
+
+    <!-- Floating Phone & WhatsApp Button -->
+    <div
+      id="floating-contact"
+      class="fixed right-4 bottom-24 z-50 flex flex-col gap-2"
+    >
+      <a
+        href="tel:+919880316201"
+        target="_blank"
+        rel="noopener"
+        class="border-2 border-dotted border-gray-500 bg-white shadow-lg rounded-full flex items-center justify-center w-14 h-14 mb-2 hover:bg-gray-200 transition"
+      >
+        <i class="fas fa-phone text-2xl text-gray-800"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=919620192891&text=Hi%20Dr.%20Madhukumar%20M.G"
+        target="_blank"
+        rel="noopener"
+        class="border-2 border-dotted border-gray-500 bg-white shadow-lg rounded-full flex items-center justify-center w-14 h-14 hover:bg-gray-200 transition"
+      >
+        <i class="fab fa-whatsapp text-3xl text-green-500"></i>
+      </a>
+    </div>
+
+    <!-- ...existing code... -->
+    <style>
+      @media screen and (max-width: 767px) and (orientation: landscape) {
+        .mobile-landscape\:flex-col {
+          display: flex !important;
+          flex-direction: column !important;
+        }
+        .mobile-landscape\:max-w-\[400px\] {
+          max-width: 400px !important;
+        }
+        .mobile-landscape\:mx-auto {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .mobile-landscape\:h-48 {
+          height: 12rem !important;
+        }
+        .mobile-landscape\:text-2xl {
+          font-size: 1.5rem !important;
+          line-height: 2rem !important;
+        }
+        .mobile-landscape\:text-base {
+          font-size: 1rem !important;
+          line-height: 1.5rem !important;
+        }
+      }
+    </style>
+  </body>
+</html>

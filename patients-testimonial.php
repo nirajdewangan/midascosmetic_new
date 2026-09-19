@@ -1,0 +1,1354 @@
+<?php
+header('Location: patients-testimonial.html');
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <?php include('meta_tag.php') ?>
+
+    <title>Midas Cosmetic : Hair Restoration | Liposuction | Gynecomastia | Tummy Tuck | Post Weight Loss Tucking | Breast Reshaping | Rhinoplasty | Botox
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!--Analytics Tracking Code -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37076903-1']);
+        _gaq.push(['_setDomainName', 'midascosmetic.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!--End Analytics Tracking Code -->
+    <!-- Page styles -->
+    <link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
+    <!-- Contact Form CSS files -->
+    <link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="dropdown-menu.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Start VisualLightBox.com HEAD section -->
+    <link rel="stylesheet" href="GALLERY/engine/vlightbox1.css" type="text/css" />
+    <link rel="stylesheet" href="GALLERY/engine/css/visuallightbox.css" type="text/css" media="screen" />
+    <script src="GALLERY/engine/js/jquery.min.js" type="text/javascript"></script>
+    <script src="GALLERY/engine/js/visuallightbox.js" type="text/javascript"></script>
+    <script src="GALLERY/engine/js/vlbdata.js" type="text/javascript"></script>
+    <!-- End VisualLightBox.com HEAD section -->
+</head>
+
+<body>
+    <?php include('side_contact.php'); ?>
+    
+    <!--Body -->
+
+    <div id="mainbody">
+
+    <?php include('header.php'); ?>
+        <!--Header --><!--body panel -->
+        <div id="bodypanel">
+            
+                <?php include('slider.php'); ?>
+            <!--content panel -->
+            <div id="innerpanel">
+                <div id="leftpanel">
+                    <!--heading -->
+                    <div class="ipageheading">
+                        <h4 style="margin:18px 0 0 5px; float:left; width:200px;">Patients Testimonials</h4>
+                        <div style="margin:1px 0 0 0; float:right;"><img src="pics/testimonials-heading-img.jpg" alt="" width="92" height="54" /></div>
+                        <div class="clear"></div>
+                    </div>
+                    <!--end heading -->
+                    <!--inr gallery -->
+                    <!--end inr gallery -->
+                    <!--1st testimonials -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Rudra - Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I underwent correction of Gynecomastia by Dr. Madhukumar in June2013. I want to thank Dr. Madhu kumar for the change that he has brought in my life, which made me feel confident in the present world.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal'><a href='#' class='basic'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content">
+                            <div class="ipageheading">
+                                <h4>Mr. Rudra - Gynaecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I underwent correction of Gynecomastia by Dr. Madhukumar in June2013. I want to thank Dr. Madhu kumar for the change that he has brought in my life, which made me feel confident in the present world.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Here comes the scenario... I was shy to take off my shirt in front of my friends and even in front of my family members due to the odd shape of my chest that I had noticed at the time of my intermediate(12th standard) and
+                                    from that time I was completely out of any kind of outdoor activities related to water...Due to this I got frustrated and depressed everyday and as per suggestion of my close friend, I got to know about the surgery
+                                    for gynecomastia and started researching about that. I got a list of doctors and trust me friends, I met 7 doctors including Dr. Madhukumar and felt positive after talking to Dr. Madhukumar.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Trust me friends, the hospital staff giving importance and the way they make you feel comfortable(especially for those who attempt to undergo a surgery for first time) till discharge is really appreciable. Sincerely, from
+                                    my bottom of my heart I thank Dr. Madhukumar for everything and being patient throughout the process. I would sincerely suggest Dr. Madhukumar to anyone who is still thinking whether to consult a doctor on this issue
+                                    or not and whether to undergo the surgery. <br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--end 1st testimonials -->
+                    <!--2nd Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Deepak, 28 yrs - Hair Transplant</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I couldn't be happier with your work or the present state of my hair line. The first meeting with you cleared my anxiety about the results and what to expect. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal1'><a href='#' class='basic1'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content1">
+                            <div class="ipageheading">
+                                <h4>Mr. Deepak, 28 yrs - Hair Transplant</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I couldn't be happier with your work or the present state of my hair line. The first meeting with you cleared my anxiety about the results and what to expect. Found you very supportive and realistic all throughout the procedure.
+                                    Now 1 year after the procedure, the results are fully apparent, I got a nice hairline with good amount of hairs, are denser and I can comb them in any way I like. I am completely happy with the procedure and as you
+                                    probably know, I have recommended you to a few of my acquaintances planning for hair transplant, including my brother. Thank you, doctor. <br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 2nd Testimonials -->
+                    <!--3rd Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Ms. Smita, 25 yrs - Rhinoplasty</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I was very scared and confused whether to go for this procedure or not. I needed a very minimal correction for my nose. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal21'><a href='#' class='basic21'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content21">
+                            <div class="ipageheading">
+                                <h4>Ms. Smita, 25 yrs - Rhinoplasty</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I was very scared and confused whether to go for this procedure or not. I needed a very minimal correction for my nose. I just trusted Dr. Madhukumar and decided to go for it. He performed the surgery efficiently. My nose
+                                    healed quickly post surgery. But it definitely doesn't show an obvious change. No one could notice that I had a nose job. But even after two months, the tip of the nose was swollen. I regretted going through the procedure
+                                    because of this. I liked my nose tip that i had before the surgery. Now it's been almost 6 month. The swelling has pretty much reduced and my nose looks neat. I don't regret anymore. I look good in all the photos, especially
+                                    selfies, in which my nose used to look terrible before. As the doctor told, it will take almost 6 months to get the final result. I'm very happy with the result. Thanks to Dr. Madhukumar. <br /> *Results May Vary from
+                                    Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 3rd Testimonials -->
+                    <!--4th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Ms. Megha, 28 - Liposuction</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I would like to put this on record that Dr. Madhukumar gave me a new life by changing my looks, which in turn gave me confidence.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal22'><a href='#' class='basic22'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content22">
+                            <div class="ipageheading">
+                                <h4>Ms. Megha, 28 - Liposuction</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I would like to put this on record that Dr. Madhukumar gave me a new life by changing my looks, which in turn gave me confidence. I underwent Liposuction of my abdomen and lower back. A very good care of me was taken by
+                                    Dr. Madhukumar and his expert staff. I would like to recommend Dr. Madhukumar whole heartedly to all the people out there with a similar condition like I was once in. <br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 4th Testimonials -->
+                    <!--5th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mrs. Vijay, 38 yrs - Breast Reduction and Tummy Tuck</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">'Thank you doc' are the first words that come to my mind every time I see myself in mirror. I had 3 normal pregnancies and am 38 years old. My body's condition is anybody's guess. Before I went to meet Dr.Madhukumar, I had
+                                consultation with many other cosmetic surgeons but Dr.Madhukumar's explanation and logical expectations after surgeries were idealistic. Most importantly, financially he was my best option.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal18'><a href='#' class='basic18'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content18">
+                            <div class="ipageheading">
+                                <h4>Mrs. Vijay, 38 yrs - Breast Reduction and Tummy Tuck</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">'Thank you doc' are the first words that come to my mind every time I see myself in mirror. I had 3 normal pregnancies and am 38 years old. My body's condition is anybody's guess. Before I went to meet Dr.Madhukumar, I
+                                    had consultation with many other cosmetic surgeons but Dr.Madhukumar's explanation and logical expectations after surgeries were idealistic. Most importantly, financially he was my best option.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I underwent Abdominoplasty and Breast reduction surgery. After the surgery,I followed his instructions to the 'T'. Post surgery, I used to sms stupid questions like 3 or 4 times a day but pop comes back the answer.He was
+                                    very patient and attended to all my concerns with a smile. I would definitely suggest him to my friends and family. Nowadays I no more window shop when I go to mall, I try some of them which I was embarrassed to even
+                                    look at earlier, all thanks to Dr.Madhukumar.<br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 5th Testimonials -->
+                    <!--6th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. John, 25 yrs - Hair Transplant</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">"I am taking this moment to thank Dr. Madhukumar, who performed multiple surgeries on my face and has also done hair transplantation procedure on me. I am completely satisfied with his treatment.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal19'><a href='#' class='basic19'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content19">
+                            <div class="ipageheading">
+                                <h4>Mr. John, 25 yrs - Hair Transplant</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">"I am taking this moment to thank Dr. Madhukumar, who performed multiple surgeries on my face and has also done hair transplantation procedure on me. I am completely satisfied with his treatment.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am in my 20's and like everyone at this age I used to look at my face in the mirror at least once in an hour :-). It was all going fine till I met with a freak accident which left me with serious injuries on my face and
+                                    lost a patch of my hair as well. In just one day, I lost all my confidence.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">This is when I was admitted into Fortis hospital and met Dr. Madhukumar. Since then it has been a gradual process of improving my appearance. Now, although I have a few more scars left, I definitely look OK for the kind
+                                    of accident I had, all thanks to the Doctor.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">There is one very important quality I need to highlight about Doctor. He talks in such a way that you don't loose your confidence, but at the same time sets the expectation about what is achievable. Generally sets the expectation
+                                    low about any procedure and over achieves all the time<br />
+                                    <br /> Thanks again Doctor<br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 6th Testimonials -->
+                    <!--7th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Praveen 18yrs- Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">Me and My parents and are really happy with the results that I have got after the Gynecomastia surgery.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal23'><a href='#' class='basic23'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content23">
+                            <div class="ipageheading">
+                                <h4>Mr. Praveen 18yrs- Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Me and My parents and are really happy with the results that I have got after the Gynecomastia surgery. You have done a Great Job, for which I am always thankful. You have changed my life and u have guided me from darkness
+                                    to light and those embarrassing days have passed and they will never come back I believe....I am BOLD AND CONFIDENT now. Now I love to take off my shirt and walk along the swimming pool and feel really confident and
+                                    smart...I do see a lot of change on my chest after the surgery for which I am really happy....As of now my college is starting and I have started working out at the gym with light exercises and would tone up my body
+                                    and look good in a few days. Once Again A BIG THANK YOU!! :)<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 7th Testimonials -->
+                    <!--8th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Ms. Mary Leena 38yrs - Tummy Tuck</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I am very pleased & happy with my Tummy Tuck surgery. Blessed with 3 kids, i did'nt have any intention to go for Tummy tuck, as i was busy with my own chores & routines.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal24'><a href='#' class='basic24'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content24">
+                            <div class="ipageheading">
+                                <h4>Ms. Mary Leena 38yrs - Tummy Tuck</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am very pleased & happy with my Tummy Tuck surgery. Blessed with 3 kids, i did'nt have any intention to go for Tummy tuck, as i was busy with my own chores & routines.My husband was good and supportive. I prayed & waited
+                                    for God's will too. I met you & felt very comfortable talking with you. Before I changed my mind, I asked for an earliest date for my surgery. Everything happened on time. The surgery went on well and the healing was
+                                    good. Not much of pain & no complaints too. You are a very good doctor, with pleasing personality & always welcomes with a smile. I personally thank you so much for your sincere work. I really feel good and confident
+                                    now. I would definitely recommend you to others too. My husband is very happy with the results of mine. God bless your work. Will keep in touch.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 8th Testimonials -->
+                    <!--9th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Ranjan, 27 yrs - Hair Transplant</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">It was a wonderful experience meeting you and having the hair transplant surgery done at your centre. Initially, I was reluctant to go for it and had the notion that it will cause a lot of pain.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal25'><a href='#' class='basic25'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content25">
+                            <div class="ipageheading">
+                                <h4>Mr. Ranjan, 27 yrs - Hair Transplant</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">It was a wonderful experience meeting you and having the hair transplant surgery done at your centre. Initially, I was reluctant to go for it and had the notion that it will cause a lot of pain. But, after discussing with
+                                    you I found it very comfortable and I decided to go for the hair transplant. I would sincerely thank you and your staff for the surgery you have performed and it was great interacting with you post surgery as well.
+                                    I recommend other people as well to visit Midas Cosmetic Surgery Clinic for hair restoration treatment. I personally feel happy with the results I have obtained. Thank you so much doctor.<br /> *Results May Vary from
+                                    Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 9th Testimonials -->
+                    <!--10th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr Santhosh, 35yrs - Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I appreciate your help in resolving GYNECOMASTIA that i sufferred from. You were very helpful in clarifying my doubts and gave a clear idea of what to expect with regard to the outcome.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal26'><a href='#' class='basic26'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content26">
+                            <div class="ipageheading">
+                                <h4>Mr Santhosh, 35yrs - Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I appreciate your help in resolving GYNECOMASTIA that i sufferred from. You were very helpful in clarifying my doubts and gave a clear idea of what to expect with regard to the outcome. I will definitely recommend your
+                                    name to anyone requiring assistance via Cosmetic surgery. The drain less surgery was a big help and looking back, the compression garment was also good, though I hated it initially. <br /> Thank you and wish you the
+                                    very best<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 10th Testimonials -->
+                    <!--11th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Santosh, 35 yrs - Hair Transplant</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I was suffering from hereditary hair loss from 7-8 years. The hair loss was severe and made me loose my self confidence. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal27'><a href='#' class='basic27'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content27">
+                            <div class="ipageheading">
+                                <h4>Mr. Santosh, 35 yrs - Hair Transplant</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I was suffering from hereditary hair loss from 7-8 years. The hair loss was severe and made me loose my self confidence. I met Dr. Madhukumar one year ago and as per his advise, I underwent hair transplant at Midas Cosmetic
+                                    Surgery Clinic. The procedure and after care was very good. I was also put on hair loss medications by Dr. Madhukumar. The result has been very good and I feel a lot more confident now. Thank you doctor.<br /> *Results
+                                    May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 11th Testimonials -->
+                    <!--12th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Murali. 29 yrs - Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I would like to thank you for solving my Gynecomastia problem and making my chest look better. I am totally happy with your quality treatment and guidance throughout the treatment period.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal28'><a href='#' class='basic28'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content28">
+                            <div class="ipageheading">
+                                <h4>Mr. Murali. 29 yrs - Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I would like to thank you for solving my Gynecomastia problem and making my chest look better. I am totally happy with your quality treatment and guidance throughout the treatment period. The moment I got to know about
+                                    this problem, I have consulted many doctors, but didn't get the proper explanation about the problem and treatment procedure. You are the one who explained clearly about the problem and resolution for the problem. I
+                                    would definitely suggest your name if someone needs the treatment.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+
+                    <!--End 12th Testimonials -->
+                    <!--13th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Harsha, 26 yrs - Hair Transplant</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I am really glad that I chose Dr. Madhukumar for my hair transplant and treatment. He understood my problems and discussed in detail about the solutions. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal29'><a href='#' class='basic29'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content29">
+                            <div class="ipageheading">
+                                <h4>Mr. Harsha, 26 yrs - Hair Transplant</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am really glad that I chose Dr. Madhukumar for my hair transplant and treatment. He understood my problems and discussed in detail about the solutions. He also explained that a low hairline is not good for me as I am
+                                    still young and would loose more hair as I age. I was convinced and went ahead with the surgery. I am very happy with the hairline design and hair growth( its 18 months after the surgery). The result and outcome is
+                                    actually beyond what the doctor promised. I now feel more confident and comfortable about my looks and would like to thank the doctor from the bottom of my heart.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 13th Testimonials -->
+                    <!--14th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Rajesh 30yrs - Hair Transplant</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I am 30 years of age. I started loosing my hair when I was 24 and had progressive hair loss. I tried all types of medication-- acupuncture,massage etc.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal30'><a href='#' class='basic30'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <div id="basic-modal-content30">
+                            <div class="ipageheading">
+                                <h4>Mr. Rajesh 30yrs - Hair Transplant</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am 30 years of age. I started loosing my hair when I was 24 and had progressive hair loss. I tried all types of medication-- acupuncture,massage etc. but nothing helped. When I got my first job, I decided to go for a
+                                    Hair transplant with my savings. I searched on the Net as there was no other way to find a good Hair Transplant doctor. After thorough research, I met Dr. Madhukumar in Bangalore. The surgery was performed in Feb, 2012,
+                                    and after ten months I am very satisfied with the results. I am also taking hair loss medicines, with no side effects.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                    </div>
+                    <!--End 14th Testimonials -->
+                    <!--15th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Jagtar Singh 26yrs- Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">My sincere thanks to Dr. Madhukumar. I was a little apprehensive about the whole procedure(Gynecomastia), but the counselling done by Dr. Madhukumar cleared all my doubts regarding the surgery.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal31'><a href='#' class='basic31'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content31">
+                            <div class="ipageheading">
+                                <h4>Mr. Jagtar Singh 26yrs- Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">My sincere thanks to Dr. Madhukumar. I was a little apprehensive about the whole procedure(Gynecomastia), but the counselling done by Dr. Madhukumar cleared all my doubts regarding the surgery. He was very co-operative
+                                    and patient to listen to all my doubts. I researched a lot online to find out the best place to carry out this surgery and finally decided upon his clinic as cost of the surgery was comparitively less than others but
+                                    facility and treatment was beyond my expectation. Now, I can say that my decision to visit Dr. Madhukumar was absolutely right and I will recommend his clinic and services to everybody without any second thought. <br
+                                    /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 15th Testimonials -->
+                    <!--1st Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Shashi- Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I want to start by saying thank you and I am so happy with the results. My entire experience with Dr. Madhukumar was wonderful and I am very pleased with the results of my surgery and treatment. Allow me to share part of my
+                                story and journey with you.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal20'><a href='#' class='basic20'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content20">
+                            <div class="ipageheading">
+                                <h4>Mr. Shashi- Gynaecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I want to start by saying thank you and I am so happy with the results. My entire experience with Dr. Madhukumar was wonderful and I am very pleased with the results of my surgery and treatment. Allow me to share part of
+                                    my story and journey with you.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I had gynecomastia problem from my teenage. I have never appeared with bare chest in my home, college or outside. I used to avoid all type of outdoor activities just to hide my chest from others. I could not able to wear
+                                    shirts, T-Shirts as I like. At the age of 26, I finally decided to do something for my gynecomastia. I had read some reviews about the surgery in Internet.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I took a sometime researching the procedure in Google for cosmetic surgery centers in Bangalore. I went for a consultation with Dr. Madhukumar at his clinic 'MIDAS Cosmetic Surgery Clinic'. I explained about my problem
+                                    and asked all my doubts and concerns about the surgery. I worried about scaring, sensation, and other general fears. Dr. Madhukumar is so caring and made me feel comfortable from the moment I had my first appointment.
+                                    After talking with him, I decided that I wanted him to perform the surgery. I fixed appointment for the surgery with him on the same week itself. I was admitted in the hospital and the surgery is took around 2 hours.
+                                    It was both gland removal and liposuction. After the procedure, I felt very comfortable and discharged on the same day of my surgery as it is day care procedure.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I was able to return to my regular work within 3 days, and physically and emotionally I feel very happy. I can do all of my usual activities without any discomfort. The scars are very minimal, and no one can find that had
+                                    surgery in my chest.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Now after 1 month post operation, I am fairly satisfied with my results. Finally I would like to thank you from the bottom of my heart and would not hesitate in recommending you to anyone who needs cosmetic surgery.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Thank you again for such a positive experience.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 1st Testimonials -->
+                    <!--2st Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Aniruddh - Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I would like this opportunity to thank Dr. Madhukumar for the lifetime rescue from the curse called GYNECOMASTIA. The operation has changed my life from a lonely person to a very friendly, confident and fearless person. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal1'><a href='#' class='basic1'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content1">
+                            <div class="ipageheading">
+                                <h4>Mr. Aniruddh- Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I would like this opportunity to thank Dr. Madhukumar for the lifetime rescue from the curse called GYNECOMASTIA. The operation has changed my life from a lonely person to a very friendly, confident and fearless person.
+                                </div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">The way he carried out operation was very safe, secure and comfortable. Moreover the friendly treatment during the operation from the staff allowed me to calm myself and relax.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I strongly recommend all the persons to feel free to contact Dr Madhukumar for any kind of queries and guidelines. Dr Madhukumar is a man of the words and everything will follow as per his directions and the discussions.
+                                    He takes care of the patients not just during the operation/treatment but also before and after the treatment.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Thank you Dr Madhukumar once again for changing my life.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 2st Testimonials -->
+                    <!--14st Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">* Mr.Varadaraj - Hair Restoration</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">Midas Cosmetic Surgery Center is well equipped to perform hair transplant surgery. I decided to go ahead with the surgery which was performed to my satisfaction. Now I am looking smart and younger, thanks to Dr.Madhukumar.
+                            </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal14'><a href='#' class='basic14'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content14">
+                            <div class="ipageheading">
+                                <h4>Mr.Varadaraj Hair Restoration</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I work as a staff nurse at Jayadeva Cardiac Hospital, Bangalore. I am 28 years old. I have suffered a lot due to my hair loss at work place and in my social circle. I would feel very depressed when I saw myself in the mirror.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I was informed about hair transplant by one of the doctors at our hospital. He suggested that I consult Dr.Madhukumar. I met Dr.Madhukumar and he explained in detail about the surgery and showed many results of the hair
+                                    transplant performed by him. His centre('MIDAS Cosmetic Surgery Clinic') is well equipped to perform hair transplant surgery. I decided to go ahead with the surgery which was performed to my satisfaction. Now I am looking
+                                    smart and younger, thanks to Dr.Madhukumar.<br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 14st Testimonials -->
+                    <!--testimonial 3 -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mrs. Rashmi- Liposuction</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">My experience with Lipo and Dr Madhukumar has been satisfying……. Also, knees and lower thighs look way much better than earlier. Even though we can see few immediate changes ,it is a gradual process and takes couple of months
+                                to settle down. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal2'><a href='#' class='basic2'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content2">
+                            <div class="ipageheading">
+                                <h4>Mrs. Rashmi- Liposuction</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">My experience with Lipo and Dr Madhukumar has been satisfying. Like all patients, i had my apprehensions before approaching anyone .After doing my own bit of internet research i had short-listed three surgeons . After having
+                                    consultations with all three what i appreciated in Dr Madhukumar was his patience to answer my zillion questions and willingness to explain at length the entire procedure. Even though hospital was way far off from my
+                                    residence , comfort factor with the doctor was the main reason of my choice. I did not have surprises before or after operation which is significant in cosmetic procedures. However one needs to read up on one's own
+                                    so as to not to get disillusioned for want of immediate results. In my case, i could see significant reduction of fat in my hips which was a major painpoint for me.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">.Also, knees and lower thighs look way much better than earlier. Even though we can see few immediate changes ,it is a gradual process and takes couple of months to settle down.<br />
+                                </div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">My muscle cramps and bruises are gone after 6 weeks but one needs be patient with this. The key is to keep the Doctor informed of any concerns and get immediate attention and advice and in my case worked.<br /> *Results
+                                    May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--end 3rd testimonials -->
+                    <!--4th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mrs.Surekha - Tummy Tuck</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">Just wanted to thank you for making me look wonderful and feel happy with myself after the Abdominoplasty ...The after care was all managed so beautifully it all went through with out a hitch and I was discharged after 4days.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal3'><a href='#' class='basic3'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content3">
+                            <div class="ipageheading">
+                                <h4>Mrs.Surekha- Tummy Tuck</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Just wanted to thank you for making me look wonderful and feel happy with myself after the Abdominoplasty .</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Just wanted to share the experience .</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I always had a fear for surgery and pain.But wanted to remove the fat which had accumulated after child birth.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Even though I used to exercise that particular part, the lower tummy fat I was just not able to get rid of and when I found out the best way of removal is through Abdominoplasty , I decided to go through It and went to
+                                    Fortis and i was put through a battery of tests and found me fit for surgery. And Dr.Madhukumar had given a green signal for surgery. The day before the operation , Dr.Madhukumar met me and went through the procedure
+                                    , it sounded quite simple and safe. He also explained its a long procedure and the operation will take around 4hrs. But, by the end of it I shall have a flat stomach .</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">On the day of the operation I was taken in and they gave me few shots and an epidural that's all I remember . I woke up to some pain, but it was kept under control with pain killers and when Doctor told me the next day
+                                    I have to get up and walk , I thought he was joking but they made me walk and I realised the pain comes down the more I start to move around. The after care was all managed so beautifully it all went through with out
+                                    a hitch and I was discharged after 2days.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Doctor also explained the pain will be there but at the end of the day , worth it. Even the pain was more only on the first day after the surgery it started to decrease from the 2nd day onwards.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I realised if we follow what ever the Doctor prescribes to the ‘T’ , we can recover within the stipulated time.The only pain after coming home was wearing the abdominal binder 24/7 for Three months. But it was worth the
+                                    pain. And now I am back doing all my normal work and routine without a problem and absolutely no pain and a flat stomach.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Thank you once again.<br /> Regards
+                                    <br /> Surekha.
+                                    <br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 4st Testimonials -->
+                    <!--5th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mrs. Smitha - Breast Augmentation</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">It was a very good experience to get Breast augmentation surgery. "Thank you for the amazing transformation. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal32'><a href='#' class='basic32'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content32">
+                            <div class="ipageheading">
+                                <h4>Mrs. Smitha - Breast Augmentation</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">It was a very good experience to get Breast augmentation surgery. "Thank you for the amazing transformation. I have enjoyed having you as my surgeon. I feel I can trust you completely. I am very happy with the results.
+                                    I have felt such at ease throughout this process, the staff were very helpful and I thanks you once again for your patience in answering all my questions with smile I will recommend you to everyone I know."<br /> *Results
+                                    May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 5th Testimonials -->
+                    <!--6th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Ajay - Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I am very happy with the results of Gynecomastia surgery. I never imagined that surgery was going to be so easy. I never had down time because I had very little discomfort. I can see a BIG difference right away. I totally recommend
+                                Dr. Madhukumar because he’s the person,who ever best!</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal6'><a href='#' class='basic6'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content6">
+                            <div class="ipageheading">
+                                <h4>Mr. Ajay- Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am very happy with the results of Gynecomastia surgery. I never imagined that surgery was going to be so easy. I never had down time because I had very little discomfort. I can see a BIG difference right away. I totally
+                                    recommend Dr. Madhukumar because he’s the person,who ever best!</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">This surgery is the best decision I’ve made and it’s so great! Everybody in Dr. Madhukumar’s office is so supportive. I love the staff and of course, Dr. Madhukumar is the Best!</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Thank You, Dr. Madhukumar.<br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 6th Testimonials -->
+                    <!--testimonials 15 -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr.Ashutosh - Hair Restoration</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">
+                                <div>The person who answered all my questions logically was Dr. Madhu Kumar from Midas Aesthetic Center,Jayanagar…… The surgery as well as medicines have done miracle for me. I got my hair as well as confidence back.Thanks a
+                                    lot, Dr.Madhu Kumar.</div>
+                            </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal15'><a href='#' class='basic15'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content15">
+                            <div class="ipageheading">
+                                <h4>Mr.Ashutosh - Hair Restoration</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">It was approximately 5 years back when I came to Bangalore and immediately after I felt hair loss. I met many trichologist but found no improvement. Few of them suggested me hair transplant,Few bluffed to me that they can
+                                    grow hair with medicines. Since transplant was costly &amp; with my previous experiences, trusting doctor was very difficult. So once again I searched many trichologists and discussed about the problem.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">The person who answered all my questions logically was Dr. Madhu Kumar from Midas Aesthetic Center,Jayanagar. Unlike other doctors, he was very friendly and explained everything about the procedure as well as the time of
+                                    treatment. The main and important factor was the cost of surgery, which was approximately 30% less than the cost charged by others clinics for the same treatment.
+                                </div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">We started surgery on first week of September 2011.The staff as well as doctor was very supportive throughout 8 hr long surgery. They gave me local anesthesia only on head. During surgery I didn’t get bored as I talked
+                                    as well as watched television. With 2-3 breaks, the surgery finished. The strip of the back scalp is removed with precautions and it healed very fast without any adverse effect. The surgery is done only for the front
+                                    portion of the head. I was also advised hair loss medicines.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">The surgery as well as medicines have done miracle for me. I got my hair as well as confidence back.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">
+                                    <p>Thanks a lot, Dr.Madhu Kumar.<br /> Thanks &amp; Regards<br /> Mr.Ashutosh
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--end testimonials 15 -->
+                    <!--7th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Mahendra - Gynaecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">He has provided good after surgery care. After surgery I have met him around 3 to 4 times. I got fantastic results, much more than he promised. I never expected such a change. Now, I wander freely without formals. I have started
+                                wearing fashionable dresses. Thanks to Dr. Madhu Kumar. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal7'><a href='#' class='basic7'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content7">
+                            <div class="ipageheading">
+                                <h4>Mr. Mahendran- Gynaecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Hi, I went through gynecomastia surgery last month. Infact, I came to know the term called ‘gynecomastia’ before two weeks of surgery.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Nowadays, this problem is common amongst youngsters. It’s very difficult to explain about ‘gynecomastia’ to someone who doesn’t know about it.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Most of people (including me once upon a time) don’t know that someone called ‘cosmetic surgeon’ who is certified to perform gynecomastia surgery. I still remember, three years before I went to consult a ‘chest physician’
+                                    for gynecomastia. This happened because of lack of knowledge about this problem. Nowadays, due to advent of technology, it’s easy to take informed decision.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Infact I am from Tamil nadu. I don’t know much about Karnataka. I planned to do detailed research on the availability of ‘cosmetic surgeon’ in Bangalore, in terms of efficiency, economical cost and reputation.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">After the days and days of research, I found Dr. Madhu Kumar who passed in all my research terms and conditions. Choosing the right doctor means you are half way through the surgery. And I feel that I selected the right
+                                    doctor.
+                                </div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">And I like to say some thing about Dr. Madhu Kumar. He is so polite with me. He has spent his valuable time explaining about surgery. He dealt with professional and ethical manner. I had lots of queries after surgery and
+                                    he has helped me over the phone. </div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">He has given lots of confidence before and after surgery. He has taken away my fear of surgery. He created friendly environment.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">He has provided good after surgery care. After surgery I have met him around 3 to 4 times.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I got fantastic results, much more than he promised. I never expected such a change.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Now, I wander freely without formals. I have started wearing fashionable dresses.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Thanks to Dr. Madhu Kumar. I humbly request him to continue his good services to people.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 7th Testimonials -->
+                    <!--16 testmonials-->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Anupam,Post Bariatric R</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I got my Tummy tuck and male breast reduction done in the month of April 2012 by Dr Madhu Kumar…I think main role of your Surgeon is that he/she can give you a lot of comfort just by their words. I was lucky to have Dr. Madhukumar
+                                , as he is well experienced and very soft spoken….Lastly , if you have excess loose skin after weight loss, this is the best way to overcome the problem and look better. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal16'><a href='#' class='basic16'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content16">
+                            <div class="ipageheading">
+                                <h4>Mr. Anupam,Post Bariatric R</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Hiiiii Friends !!!!!!!!!!</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I got my Tummy tuck and male breast reduction done in the month of April 2012 by Dr Madhu Kumar. I had undergone bariatric surgery 2 years ago and had lost about 50 kgs. I wanted to get rid of the loose skin on my torso.My
+                                    experience was good . It was uncomfortable initially , I also thought that why the hell did i do the surgery,as it was uncomfortable and painful, The worst part was I was not allowed to drive for 2 weeks but as the
+                                    days progressed I was looking better with my new shape and the comfort zone was getting back .</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Any surgery done , is a very weird experience . Morning i used to look much leaner and by evening i used to look little bulged up and then i learned that there would be swelling by the evening on the operated area .The
+                                    scars looked prominent initially, but now after 6 months it is much better.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I think main role of your Surgeon is that he/she can give you a lot of comfort just by their words. I was lucky to have Dr. Madhukumar , as he is well experienced and very soft spoken. I have asked him many such stupid
+                                    questions 10 times a day , but still not even once did he get annoyed but answered my queries in a very soft , justifying and satisfactory manner .</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Lastly , if you have excess loose skin after weight loss, this is the best way to overcome the problem and look better.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Good luck !!!!!<br /> YOU ROCK DOC.....<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--end 16 testimonials -->
+                    <!--8th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Shiv - Gynaecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">Doctor was very approachable, gave a complete outlook of the surgery, the surgery was conducted very successfully</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal33'><a href='#' class='basic33'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content33">
+                            <div class="ipageheading">
+                                <h4>Mr. Shiv - Gynaecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">"Doctor was very approachable, gave a complete outlook of the surgery, the surgery was conducted very successfully, and post the surgery the follow-ups were very helpful and the recovery was very visible as suggested by
+                                    the doctor. Thanks to Dr. MadhuKumar, this surgery has improved my overall body language ."<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 8th Testimonials -->
+                    <!--17th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mrs. Ratna - Breast Reduction</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I underwent Breast reduction surgery performed by Dr. Madhukumar. I had shoulder pain and was greatly embarrassed by the the heavy breasts.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal34'><a href='#' class='basic34'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content34">
+                            <div class="ipageheading">
+                                <h4>Mrs. Ratna - Breast Reduction</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I underwent Breast reduction surgery performed by Dr. Madhukumar. I had shoulder pain and was greatly embarrassed by the the heavy breasts. The discomfort and pain disappeared after the surgery and I feel very confident
+                                    now. I am very happy with the results and would like to express my heartfelt gratitude.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 17th Testimonials -->
+                    <!--16th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Surya - Hair Restoration</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">MIDAS Cosmetic Surgery Clinic' is the best place to do hair transplantation. The cost is affordable and the quality is best. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal35'><a href='#' class='basic35'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content35">
+                            <div class="ipageheading">
+                                <h4>Mr. Surya - Hair Restoration</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">'MIDAS Cosmetic Surgery Clinic' is the best place to do hair transplantation. The cost is affordable and the quality is best. The treatment that I got here is bettre than what I expected. I was nervous whether to go for
+                                    the surgery or not. But I feel the surgery done by Dr. Madhukumar was great with almost no pain.I have had a very good post- operative experience. I am very happy about the quality of service provided here. I suggest
+                                    to others as well, because here I have got real value for money I spent. I highly recommend this centre for anyone planning for hair transplant. I would sincerely like to thank Dr.Madhukumar.<br /> *Results May Vary
+                                    from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 16th Testimonials -->
+                    <!--9th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Ms. Nina - Liposuction</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I am 23 years old. I had liposuction performed by Dr.Madhukumar. I underwent liposuction of arms, abdomen and thighs in one sitting. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal36'><a href='#' class='basic36'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content36">
+                            <div class="ipageheading">
+                                <h4>Ms. Nina - Liposuction</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am 23 years old. I had liposuction performed by Dr.Madhukumar. I underwent liposuction of arms, abdomen and thighs in one sitting. I am happy with the improvement and had significant inch loss as well. I am very happy
+                                    with the results and feel more confident now.<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 9th Testimonials -->
+                    <!--16th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Mohan - Hair Restoration</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I refer to the hair transplant done 10 months back .Presently the transplant seems to be very successful as the hair growth is normal. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal37'><a href='#' class='basic37'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content37">
+                            <div class="ipageheading">
+                                <h4>Mr. Mohan - Hair Restoration</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Dear Dr.M.G.Madhukumar<br /> I refer to the hair transplant done 10 months back .Presently the transplant seems to be very successful as the hair growth is normal. when the hair growth became nomal- I felt better and relaxed
+                                    . The hair transplant is successful and feeling is far,far better. Pain less treatment was infact good and encouraging for others who can opt for this type of tratment The hair growth now is normal and I have regained
+                                    my natural looks and feel confident in all walks of my life<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 16th Testimonials -->
+                    <!--20th test -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Shivaji - Liposuction</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">The surgery had gone well, I did not take any days off work; months had passed, but I couldn’t appreciate the results until I went back to Midas to see the before and after pictures. At the end, I am satisfied with the results.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal17'><a href='#' class='basic17'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content17">
+                            <div class="ipageheading">
+                                <h4>Mr. Shivaji - Liposuction</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I am a 37 years old male, fairly athletic, but started consulting about liposuction to reduce some of the stubborn fat around my abdomen, love handles, and lower back that would not go away no matter how much I increase
+                                    my cardio and workout intensity. I consulted a couple of surgeons and all of them told me that I don’t need liposuction because there isn’t much to suck; even if they would, I wouldn’t be seeing mind blowing results.
+                                    I chose to go with Dr. Madhukumar because he wanted to transplant the fat cells from my abs, love handles and lower back to a depressed scar on my left arm (due to an accident years ago).</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">The surgery had gone well, I did not take any days off work; months had passed, but I couldn’t appreciate the results until I went back to Midas to see the before and after pictures. At the end, I am satisfied with the
+                                    results.
+                                    <br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--end 20th  -->
+                    <!--19th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Mr. Phanish - Gynecomastia</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">I would like to say a huge thank you to Dr.Madhukumar . He is incredible. He really listened to me and he made me feel so calm. </div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal38'><a href='#' class='basic38'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content38">
+                            <div class="ipageheading">
+                                <h4>Mr. Phanish - Gynecomastia</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">"I would like to say a huge thank you to Dr.Madhukumar . He is incredible. He really listened to me and he made me feel so calm. He is very caring and compassionate. He performed the surgery for Gynecomastia on me and did
+                                    an amazing job. I feel so very blessed and fortunate to have had him perform my surgery. I would eagerly recommend him to anybody when given the chance. He also has a wonderful team. I feel that Midas Cosmetic Surgery
+                                    Clinic is the perfect place for Cosmetic surgery."<br /> *Results May Vary from Person to Person</div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 19th Testimonials -->
+                    <!--9th Testimonial -->
+                    <!--End 9th Testimonials -->
+                    <!--10th Testimonial -->
+                    <div id='content'>
+                        <div class="testimonials">
+                            <!--procudure -->
+                            <div class="tesheading" style="background:url(pics/person.png) no-repeat; padding:3px 0 4px 30px;">*Ms. Meg - Rhinoplasty</div>
+                            <!--texting -->
+                            <div class="tesbodytext" style="margin:10px;">My experience with Dr. Madhukumar has been really fantastic. He is not only an excellent surgeon but also a great counselor.</div>
+                            <div class="links" style="margin-left:10px; margin-right:10px; margin-bottom:5px;" align="right">
+                                <div id='basic-modal10'><a href='#' class='basic10'>Indetail...</a> </div>
+                            </div>
+                        </div>
+                        <!-- modal content -->
+                        <div id="basic-modal-content10">
+                            <div class="ipageheading">
+                                <h4>Ms. Meg - Rhinoplasty</h4>
+                            </div>
+                            <!--end heading -->
+                            <!--inr gallery -->
+                            <!--end inr gallery -->
+                            <!--1st Testimonial -->
+                            <!--texting -->
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">My experience with Dr. Madhukar has been really fantastic. He is not only an excellent surgeon but also a great counselor.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Many doctors would be waiting to get patients into their clinic but here is a doctor who advises if the surgery is really necessary or not.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">I wanted to get my nose corrected and the first question he asked me was, 'WHY'... Only when he was convinced with my reasoning, he explained to me clearly the procedures for the surgery.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">He not only told me the benefits of the surgery but also the dangers, which most doctors avoid telling the patient. The most important quality of the doctor which really impressed me was the fact that he never made false
+                                    promises. He exactly told me how it would be after the surgery.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">He took care to make me feel at ease before as well as after the surgery. I would like to thank Dr. Madhukumar for his concern, patience and expertise.</div>
+                            </div>
+                            <div class="inrcontentpanel" style="text-align:justify; margin-top:10px;">
+                                <div class="bodytext">Thanks &amp; regards,<br /> Ms. Meg<br /> *Results May Vary from Person to Person </div>
+                            </div>
+                        </div>
+                        <!-- preload the images -->
+                        <div style='display:none'> <img src='img/basic/x.png' alt='' /> </div>
+                    </div>
+                    <!--End 10th Testimonials -->
+                </div>
+                <!--INNER RIGHT PANEL -->
+                <div id="rightpanel">
+                    <!--service request form -->
+                    <div class="serheading">SERVICE REQUEST FORM</div>
+
+                    <div class="servicerequest">
+                        <form action="postservuy.php" method="post" style="margin:0px;">
+                            <div class="serviceform">
+                                <div class="lableform">
+                                    <input name="txtname" type="text" class="inputs" placeholder="Name" />
+                                </div>
+                                <div class="lableform">
+                                    <input type="text" name="txtphone" class="inputs" placeholder="Phone" />
+                                </div>
+                                <div class="lableform">
+                                    <input type="text" name="txtmail" class="inputs" placeholder="Email" />
+                                </div>
+                                <div class="lableform">
+                                    <select name="txtservicerequired" class="inputs">
+<option value="None" selected="selected">Select Service Required</option>              
+              <option value="Hair Restoration">Hair Restoration</option>
+<option value="Liposuction">Liposuction</option>
+<option value="Gynecomastia">Gynecomastia</option>
+<option value="Tummy Tuck">Tummy Tuck</option>
+<option value="Post Weight Loss Tucking">Post Weight Loss Tucking</option>
+<option value="Breast Reshaping">Breast Reshaping</option>
+<option value="Rhinoplasty">Rhinoplasty</option>
+<option value="Botox">Botox</option>
+<option value="Fillers">Fillers</option>
+<option value="Hymenoplasty">Hymenoplasty</option>
+<option value="Labiaplasty">Labiaplasty</option>
+<option value="Vaginoplasty">Vaginoplasty</option>
+<option value="Dimple creation">Dimple creation</option>
+<option value="Micro-Fat Injection">Micro-Fat Injection</option>
+<option value="Face lift">Face lift</option>
+<option value="Blepharoplasty">Blepharoplasty</option>
+<option value="Otoplasty">Otoplasty</option>    
+<option value="Facial Implants">Facial Implants</option>    
+				<option value="Liposuction">Others</option>                                                                                                                                  
+              </select>
+                                </div>
+                                <div class="lableform">
+                                    <textarea name="txtquery" class="inputs" rows="6" cols="18" id="txtquery" placeholder="Query" style="height:66px; width:85%;"></textarea>
+                                </div>
+
+
+                                <div class="lableform" align="center">
+                                    <input src="images/submit-button.jpg" type="image" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end service request form -->
+                    <!--Clinical services -->
+                    <div class="clinicalservices">
+                        <div class="inrcliheading">CLINICAL SERVICES</div>
+                        <div class="inrclilist">
+                            <ul>
+                                <li><a href="Hair-Restoration.php">Hair Restoration</a></li>
+                                <li><a href="lipo.php">Liposuction</a></li>
+                                <li><a href="Gynaecomastia.php">Gynecomastia</a></li>
+                                <li><a href="tummy-tuck.php">Tummy Tuck</a></li>
+                                <li><a href="post-weight-loss-tucking.php">Post Weight Loss Tucking</a></li>
+                                <li><a href="Breast-surgery.php">Breast Reshaping</a></li>
+                                <li><a href="Rhinoplasty.php">Rhinoplasty</a></li>
+                                <li><a href="Botox-Fillers.php">Botox</a></li>
+                                <li><a href="Botox-Fillers.php">Fillers</a></li>
+                                <li><a href="Genital-Cosmetic-Surgery.php">Hymenoplasty</a></li>
+                                <li><a href="Genital-Cosmetic-Surgery.php">Labiaplasty</a></li>
+                                <li><a href="Genital-Cosmetic-Surgery.php">Vaginoplasty</a></li>
+                                <li><a href="Rhinoplasty.php">Dimple creation</a></li>
+                                <li><a href="Face-lift.php">Micro-Fat Injection</a></li>
+                                <li><a href="Face-lift.php">Face lift</a></li>
+                                <li><a href="Face-lift.php">Blepharoplasty</a></li>
+                                <li><a href="Face-lift.php">Otoplasty</a></li>
+                                <li><a href="Face-lift.php">Facial Implants</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End Clinical services -->
+                    <!--before and after -->
+                    <!--before and after -->
+                    <div class="inrbeforeafter">
+                        <div class="inrba">BEFORE / AFTER TREATMENT</div>
+                        <div class="inrbeforeafterbg">
+                            <iframe height=108 width=100% src="inr-slideshow.html" name="I1" align="left" marginwidth="1" marginheight="0" scrolling="no" frameborder="0"></iframe>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <!--end before and after -->
+                    <!--Fallow us -->
+                    <div class="fallowus">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/pages/Midas-Cosmetic-Surgery-Clinic/556263031135221" target="_blank"><img src="images/facebook-32x32.png" alt="" width="32" height="32" border="0" /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/user/MidasHairClinic"><img src="images/youtube-32x32.png" alt="" width="32" height="32" border="0" /></a>
+                            </li>
+                            <li><img src="images/linkedin-32x32.png" alt="" width="32" height="32" /></li>
+                            <li>
+                                <a href="https://twitter.com/MidasCosmetic" target="_blank"><img src="images/twitter-32x32.png" alt="" width="32" height="32" border="0" /></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+MidasCosmeticGynecomastiaSurgeryClinicBangalore" target="_blank"><img src="images/google-plus-icon.png" alt="" width="32" height="32" border="0" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--End Fallow Us -->
+                </div>
+                <!--INNER RIGHT PANEL -->
+                <div class="clear"></div>
+            </div>
+            <!--end content panel -->
+            <!--copyright -->
+            <!--copyright -->
+            
+                        
+<?php include('footer.php'); ?>
+
+
+            <div class="clear"></div>
+        </div>
+        <!--end body panel -->
+        <!--End Body -->
+        <div class="clear"></div>
+    </div>
+    <!--End Body -->
+    <!-- Pop UP Menu Load Scripts lines-->
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+    <script type='text/javascript' src='js/basic.js'></script>
+    <!--End  Pop UP Menu Load Scripts lines-->
+    
+<?php include('script_footer.php'); ?>
+
+</body>
+
+</html>

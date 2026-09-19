@@ -1,0 +1,83 @@
+#FULL access (Google)
+
+User-agent: *
+
+ Disallow: /admin/
+ Disallow: /backend/
+ Disallow: /Backup/
+ Disallow: /login/
+ Disallow: /users/forgot_password/
+ Disallow: /users/verify/
+ Disallow: /users/registration
+ Disallow: /users/change_password
+ Disallow: /*?*
+
+#FULL access (Yahoo)
+
+User-agent: Yahoo-MMCrawler
+
+ Disallow: /admin/
+ Disallow: /backend/
+ Disallow: /Backup/
+ Disallow: /login/
+ Disallow: /users/forgot_password/
+ Disallow: /users/verify/
+ Disallow: /users/registration
+ Disallow: /users/change_password
+ Disallow: /*?*
+
+#  FULL access (MSN)
+User-agent: msnbot 
+
+ Disallow: /admin/
+ Disallow: /backend/
+ Disallow: /Backup/
+ Disallow: /login/
+ Disallow: /users/forgot_password/
+ Disallow: /users/verify/
+ Disallow: /users/registration
+ Disallow: /users/change_password
+
+#  FULL access (FAST/AllTheWeb)
+
+User-agent: FAST-WebCrawler
+
+
+ Disallow: /admin/
+ Disallow: /backend/
+ Disallow: /Backup/
+ Disallow: /login/
+ Disallow: /users/forgot_password/
+ Disallow: /users/verify/
+ Disallow: /users/registration
+ Disallow: /users/change_password
+
+#  FULL access (Inktomi)
+
+
+User-agent: Slurp
+
+
+ Disallow: /admin/
+ Disallow: /backend/
+ Disallow: /Backup/
+ Disallow: /login/
+ Disallow: /users/forgot_password/
+ Disallow: /users/verify/
+ Disallow: /users/registration
+ Disallow: /users/change_password
+
+
+
+#  FULL access (Lycos)
+
+User-agent: Lycos_Spider_(T-Rex)
+
+ Disallow: /admin/
+ Disallow: /backend/
+ Disallow: /Backup/
+ Disallow: /login/
+ Disallow: /users/forgot_password/
+ Disallow: /users/verify/
+ Disallow: /users/registration
+ Disallow: /users/change_password
