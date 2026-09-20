@@ -32,10 +32,6 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     /> -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
-      defer
-    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
@@ -153,30 +149,72 @@
         padding: 5px; /* Add some padding */
         background-color: #fff;
       }
-      [x-cloak] {
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+      }
+      .mobile-menu-panel {
+        max-height: calc(100dvh - var(--mobile-header-height, 72px) - 12px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+      }
+      .mobile-menu-panel[hidden],
+      .mobile-submenu[hidden] {
         display: none !important;
+      }
+      .mobile-submenu-toggle[aria-expanded="true"] .submenu-chevron {
+        transform: rotate(180deg);
+      }
+      @media screen and (max-width: 1023px) {
+        header {
+          position: static;
+          padding-top: var(--mobile-header-height, 64px);
+        }
+        .site-header-main {
+          position: fixed;
+          left: 0;
+          right: 0;
+          top: 0;
+          z-index: 50;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+        }
+        .site-logo {
+          height: 3.25rem;
+        }
+      }
+      @media screen and (max-width: 1023px) and (orientation: landscape) {
+        .site-logo {
+          height: 2.75rem;
+        }
+        .mobile-menu-panel {
+          max-height: calc(100dvh - var(--mobile-header-height, 60px) - 8px);
+        }
       }
     </style>
   </head>
   <body class="font-sans">
     <!-- Header Section -->
-    <header class="bg-white pt-2 sticky top-0 z-50 shadow-md">
-      <div class="container mx-auto flex items-center justify-between pb-2">
+    <header class="bg-white shadow-md">
+      <div class="site-header-main bg-white shadow-sm">
+      <div class="container mx-auto flex items-center justify-between px-4 lg:px-0 py-1 lg:py-2">
         <div class="flex items-center">
-          <div class="mb-4 md:mb-0 ml-4 md:ml-0">
+          <div class="lg:ml-0">
             <a href="https://www.midascosmetic.com/"
               ><img
                 src="./images/logo-midas-cosmetic-surgery-clinic.png"
                 alt="Midas Cosmetic Logo"
-                class="h-16 md:h-24"
+                class="site-logo h-16 lg:h-24"
             /></a>
           </div>
         </div>
-        <nav class="bg-white" x-data="{ mobileOpen: false }">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
+        <nav class="bg-white">
+          <div class="max-w-7xl mx-auto lg:px-8">
+            <div class="flex justify-between lg:h-16">
               <!-- Desktop Menu -->
-              <div class="hidden md:flex items-center space-x-8">
+              <div class="hidden lg:flex items-center space-x-8">
                 <ul class="flex flex-wrap justify-center md:justify-end">
                   <li class="mx-2 my-1 text-sm md:text-base">
                     <a href="index.html" class="hover:text-primary">Home</a>
@@ -479,7 +517,7 @@
                       >Patient Testimonials</a
                     >
                   </li>
-                  
+
                   <li class="mx-2 my-1 text-sm md:text-base">
                     <a
                       href="http://www.midascosmetic.com/blog/"
@@ -500,21 +538,24 @@
                 </ul>
               </div>
               <!-- Mobile Menu -->
-              <div x-data="{ mobileOpen: false } " class="relative md:hidden">
+              <div class="relative lg:hidden flex items-center">
                 <!-- Mobile Menu Button -->
                 <button
-                  @click="mobileOpen = !mobileOpen"
-                  class="text-gray-800 focus:outline-none"
+                  id="mobile-menu-toggle"
+                  type="button"
+                  class="text-gray-800 focus:outline-none p-3 -mr-2"
+                  aria-label="Open navigation menu"
+                  aria-controls="mobile-menu-panel"
+                  aria-expanded="false"
                 >
                   <i class="fas fa-bars text-2xl"></i>
                 </button>
 
                 <!-- Mobile Menu -->
                 <div
-                  x-show="mobileOpen"
-                  x-cloak
-                  @click.away="mobileOpen = false"
-                  class="md:hidden border-t absolute z-10 right-5 min-w-[310px] bg-[#f6f6f6] shadow-lg pr-4"
+                  id="mobile-menu-panel"
+                  hidden
+                  class="mobile-menu-panel lg:hidden border-t fixed z-50 left-3 right-3 top-[var(--mobile-header-height,72px)] bg-[#f6f6f6] shadow-lg rounded-b-lg pr-2 pb-3"
                 >
                   <a
                     href="index.html"
@@ -527,17 +568,17 @@
                     >About Us</a
                   >
                   <!-- Clinical Services Dropdown -->
-                  <div x-data="{ open: false }" class="relative">
+                  <div class="relative">
                     <button
-                      @click="open = !open"
-                      class="w-full text-left text-gray-800 hover:bg-gray-100 py-2 pl-4 flex justify-between"
+                      type="button"
+                      class="mobile-submenu-toggle w-full text-left text-gray-800 hover:bg-gray-100 py-2 pl-4 flex justify-between"
+                      aria-expanded="false"
                     >
-                      Clinical Services <i class="fas fa-chevron-down"></i>
+                      Clinical Services <i class="submenu-chevron fas fa-chevron-down transition-transform"></i>
                     </button>
                     <div
-                      x-show="open"
-                      @click.away="open = false"
-                      class="pl-4 space-y-1"
+                      hidden
+                      class="mobile-submenu pl-4 space-y-1"
                     >
                       <a
                         href="Hair-Restoration.html"
@@ -546,17 +587,17 @@
                       >
 
                       <!-- Body Contouring with Submenu -->
-                      <div x-data="{ open: false }" class="relative">
+                      <div class="relative">
                         <button
-                          @click="open = !open"
-                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          type="button"
+                          class="mobile-submenu-toggle w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          aria-expanded="false"
                         >
-                          Body Contouring <i class="fas fa-chevron-down"></i>
+                          Body Contouring <i class="submenu-chevron fas fa-chevron-down transition-transform"></i>
                         </button>
                         <div
-                          x-show="open"
-                          @click.away="open = false"
-                          class="pl-4 space-y-1"
+                          hidden
+                          class="mobile-submenu pl-4 space-y-1"
                         >
                           <a
                             href="Gynaecomastia-Surgery-in-Bangalore.html"
@@ -597,18 +638,18 @@
                       </div>
 
                       <!-- Non-Surgical Facial Rejuvenation with Submenu -->
-                      <div x-data="{ open: false }" class="relative">
+                      <div class="relative">
                         <button
-                          @click="open = !open"
-                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          type="button"
+                          class="mobile-submenu-toggle w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          aria-expanded="false"
                         >
                           Non-Surgical Facial Rejuvenation
-                          <i class="fas fa-chevron-down"></i>
+                          <i class="submenu-chevron fas fa-chevron-down transition-transform"></i>
                         </button>
                         <div
-                          x-show="open"
-                          @click.away="open = false"
-                          class="pl-4 space-y-1"
+                          hidden
+                          class="mobile-submenu pl-4 space-y-1"
                         >
                           <a
                             href="Botox-Fillers.html"
@@ -629,18 +670,18 @@
                       </div>
 
                       <!-- Genital Cosmetic Surgery with Submenu -->
-                      <div x-data="{ open: false }" class="relative">
+                      <div class="relative">
                         <button
-                          @click="open = !open"
-                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          type="button"
+                          class="mobile-submenu-toggle w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          aria-expanded="false"
                         >
                           Genital Cosmetic Surgery
-                          <i class="fas fa-chevron-down"></i>
+                          <i class="submenu-chevron fas fa-chevron-down transition-transform"></i>
                         </button>
                         <div
-                          x-show="open"
-                          @click.away="open = false"
-                          class="pl-4 space-y-1"
+                          hidden
+                          class="mobile-submenu pl-4 space-y-1"
                         >
                           <a
                             href="Genital-Cosmetic-Surgery.html"
@@ -661,18 +702,18 @@
                       </div>
 
                       <!-- Facial Cosmetic Surgery with Submenu -->
-                      <div x-data="{ open: false }" class="relative">
+                      <div class="relative">
                         <button
-                          @click="open = !open"
-                          class="w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          type="button"
+                          class="mobile-submenu-toggle w-full text-left flex justify-between text-gray-700 hover:bg-gray-100 py-2 pl-4"
+                          aria-expanded="false"
                         >
                           Facial Cosmetic Surgery
-                          <i class="fas fa-chevron-down"></i>
+                          <i class="submenu-chevron fas fa-chevron-down transition-transform"></i>
                         </button>
                         <div
-                          x-show="open"
-                          @click.away="open = false"
-                          class="pl-4 space-y-1"
+                          hidden
+                          class="mobile-submenu pl-4 space-y-1"
                         >
                           <a
                             href="rhinoplasty-nose-job-in-bangalore.html"
@@ -740,17 +781,17 @@
                   </div>
 
                   <!--Picture Gallery-->
-                  <div x-data="{ open: false }" class="relative">
+                  <div class="relative">
                     <button
-                      @click="open = !open"
-                      class="w-full text-left text-gray-800 hover:bg-gray-100 py-2 pl-4 flex justify-between"
+                      type="button"
+                      class="mobile-submenu-toggle w-full text-left text-gray-800 hover:bg-gray-100 py-2 pl-4 flex justify-between"
+                      aria-expanded="false"
                     >
-                      Picture Gallery <i class="fas fa-chevron-down"></i>
+                      Picture Gallery <i class="submenu-chevron fas fa-chevron-down transition-transform"></i>
                     </button>
                     <div
-                      x-show="open"
-                      @click.away="open = false"
-                      class="pl-4 space-y-1"
+                      hidden
+                      class="mobile-submenu pl-4 space-y-1"
                     >
                       <a
                         href="Hair-Photos-Final-gallery.html"
@@ -815,6 +856,7 @@
             </div>
           </div>
         </nav>
+      </div>
       </div>
       <!-- Header bottom ribbon Bar -->
       <div class="bg-secondary">
@@ -3534,6 +3576,107 @@
       <p>&copy; 2026 Midas Cosmetic. All rights reserved.</p>
     </footer>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const headerMain = document.querySelector(".site-header-main");
+        const menuToggle = document.getElementById("mobile-menu-toggle");
+        const menuPanel = document.getElementById("mobile-menu-panel");
+
+        if (!headerMain || !menuToggle || !menuPanel) {
+          return;
+        }
+
+        const setHeaderHeight = () => {
+          document.documentElement.style.setProperty(
+            "--mobile-header-height",
+            `${Math.ceil(headerMain.getBoundingClientRect().height)}px`,
+          );
+        };
+
+        const closeSubmenus = () => {
+          menuPanel.querySelectorAll(".mobile-submenu-toggle").forEach((button) => {
+            button.setAttribute("aria-expanded", "false");
+            const submenu = button.nextElementSibling;
+            if (submenu && submenu.classList.contains("mobile-submenu")) {
+              submenu.hidden = true;
+            }
+          });
+        };
+
+        const closeMenu = () => {
+          menuPanel.hidden = true;
+          menuToggle.setAttribute("aria-expanded", "false");
+          menuToggle.setAttribute("aria-label", "Open navigation menu");
+          document.body.classList.remove("overflow-hidden");
+          closeSubmenus();
+        };
+
+        const openMenu = () => {
+          setHeaderHeight();
+          menuPanel.hidden = false;
+          menuToggle.setAttribute("aria-expanded", "true");
+          menuToggle.setAttribute("aria-label", "Close navigation menu");
+          document.body.classList.add("overflow-hidden");
+        };
+
+        menuToggle.addEventListener("click", () => {
+          if (menuPanel.hidden) {
+            openMenu();
+          } else {
+            closeMenu();
+          }
+        });
+
+        menuPanel.querySelectorAll(".mobile-submenu-toggle").forEach((button) => {
+          button.addEventListener("click", () => {
+            const submenu = button.nextElementSibling;
+            if (!submenu || !submenu.classList.contains("mobile-submenu")) {
+              return;
+            }
+            const expanded = button.getAttribute("aria-expanded") === "true";
+            button.setAttribute("aria-expanded", String(!expanded));
+            submenu.hidden = expanded;
+          });
+        });
+
+        menuPanel.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", closeMenu);
+        });
+
+        document.addEventListener("click", (event) => {
+          if (
+            !menuPanel.hidden &&
+            !menuPanel.contains(event.target) &&
+            !menuToggle.contains(event.target)
+          ) {
+            closeMenu();
+          }
+        });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape" && !menuPanel.hidden) {
+            closeMenu();
+            menuToggle.focus();
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          setHeaderHeight();
+          if (window.matchMedia("(min-width: 1024px)").matches) {
+            closeMenu();
+          }
+        });
+
+        window.addEventListener("orientationchange", () => {
+          window.setTimeout(() => {
+            setHeaderHeight();
+            menuPanel.scrollTop = 0;
+          }, 150);
+        });
+
+        setHeaderHeight();
+      });
+    </script>
     <script>
       const buttons = document.querySelectorAll(".faq-btn");
       const titleEl = document.getElementById("faq-title");
